@@ -18,7 +18,7 @@ cd frontend/
 npm install
 ```
 
-Then you can either execute `npm run server` to compile and provide hot-reloading while developing or run `npm run build` to compile and manifest for production.
+Then you can either execute `npm run serve` to compile and provide hot-reloading while developing or run `npm run build` to compile and manifest for production.
 
 ## Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
