@@ -14,11 +14,16 @@ In this project, we collect – with a strong focus on data protection and priva
 ## Project setup
 
 ```
-cd frontend/
+cd frontend
 npm install
+npm run serve
 ```
 
-Then you can either execute `npm run serve` to compile and provide hot-reloading while developing or run `npm run build` to compile and manifest for production.
+You can either execute `npm run serve` to compile and provide hot-reloading while developing or run `npm run build` to compile and manifest for production.
+
+Attention: If current npm versions cause problems. Set npm version to 12.13.0 . For switching npm version the nvm (Node Version Manager) can be used
+
+
 
 ## Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
