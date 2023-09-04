@@ -234,7 +234,7 @@ export default {
         switchToView(viewId) {
             this.$emit("update:sub-view-mode", viewId);
         },
-        /** 
+        /**
          *  Switches to the map, overlayed with incidents, corresponding to
          *  the currently active map.
          */

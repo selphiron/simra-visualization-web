@@ -152,7 +152,7 @@ export default {
             this.dataLoaded = false;
 
             setTimeout(() => {
-                fetch(`http://207.180.205.80:8000/api/statistics/${this.selectedRegion}/`)
+                fetch(process.env.VUE_APP_API_URL+`/api/statistics/${this.selectedRegion}/`)
                     .then(r => r.json())
                     .then(r => {
                         this.dataLoaded = true;

@@ -4,7 +4,6 @@
             :map-style="mapStyle"
             :center="center"
             :zoom="zoom"
-            @showAboutModal="showAboutModal = true"
             @update:map-style="
                 mapStyle = $event;
                 updateUrlQuery();
@@ -84,22 +83,57 @@
                             :zoom="zoom"
                             :incidents-visible="incidentsVisible"
                             class="is-hidden-mobile"
+                            @rsv-checkbox="toggleRsv"
+                            @layer-checkbox="toggleLayer"
+
                         />
                     </l-control>
+
+                  <l-geo-json
+                      v-if="rsvCheckedBoxes.includes('rsv')"
+                      :geojson="geojsonRSV"
+                      :options="options"
+                      :options-style="styleFunction"
+                  />
+                  <l-geo-json
+                      v-if="rsvCheckedBoxes.includes('pp')"
+                      :geojson="geojsonPP"
+                      :options="options"
+                      :options-style="styleFunction"
+                  />
+                  <l-geo-json
+                      v-if="rsvCheckedBoxes.includes('p')"
+                      :geojson="geojsonP"
+                      :options="options"
+                      :options-style="styleFunction"
+                  />
+                  <l-geo-json
+                      v-if="rsvCheckedBoxes.includes('b')"
+                      :geojson="geojsonB"
+                      :options="options"
+                      :options-style="styleFunction"
+                  />
+                  <l-geo-json
+                      v-if="rsvCheckedBoxes.includes('v')"
+                      :geojson="geojsonV"
+                      :options="options"
+                      :options-style="styleFunction"
+                  />
 
                     <!-- Because of a Vue/DOM problem, view modes have to be declared this way ... (wrapped in a tag) -->
                     <div>
                         <RideView
-                            v-if="viewMode === config.viewModes.RIDES"
+                            v-if="viewMode === config.viewModes.RIDES && showLayer"
                             ref="rideView"
                             :sub-view-mode="subViewMode"
                             @on-progress="updateLoadingView"
                             @update:sub-view-mode="subViewMode = $event"
                         />
                     </div>
+
                     <div>
                         <IncidentView
-                            v-if="viewMode === config.viewModes.INCIDENTS"
+                            v-if="viewMode === config.viewModes.INCIDENTS && showLayer"
                             ref="incidentView"
                             :zoom="zoom"
                             :bounds="bounds"
@@ -109,7 +143,7 @@
                     </div>
                     <div>
                         <SurfaceQualityView
-                            v-if="viewMode === config.viewModes.SURFACE_QUALITY"
+                            v-if="viewMode === config.viewModes.SURFACE_QUALITY && showLayer"
                             ref="surfaceQualityView"
                             :sub-view-mode="subViewMode"
                             @on-progress="updateLoadingView"
@@ -118,7 +152,7 @@
                     </div>
                     <div>
                         <RelativeSpeedView
-                            v-if="viewMode === config.viewModes.RELATIVE_SPEED"
+                            v-if="viewMode === config.viewModes.RELATIVE_SPEED && showLayer"
                             ref="relativeSpeedView"
                             :sub-view-mode="subViewMode"
                             @on-progress="updateLoadingView"
@@ -127,14 +161,14 @@
                     </div>
                     <div>
                         <StopTimesView
-                            v-if="viewMode === config.viewModes.STOP_TIMES"
+                            v-if="viewMode === config.viewModes.STOP_TIMES && showLayer"
                             ref="stopTimesView"
                             @on-progress="updateLoadingView"
                         />
                     </div>
                     <div>
                         <BoxAnalysisView
-                            v-if="viewMode === config.viewModes.BOX_ANALYSIS"
+                            v-if="viewMode === config.viewModes.BOX_ANALYSIS && showLayer"
                             ref="boxAnalysisView"
                             :mapLayer="boxAnalysisMapLayer"
                             :sub-view-mode="subViewMode"
@@ -144,7 +178,7 @@
                     </div>
                     <div>
                         <ToolsView
-                            v-if="viewMode === config.viewModes.TOOLS"
+                            v-if="viewMode === config.viewModes.TOOLS && showLayer"
                             ref="toolsView"
                             @fit-in-view="fitMapObjectIntoView"
                         />
@@ -152,7 +186,7 @@
                     <div>
                         <!-- subViewMode = $event -->
                         <PopularityView
-                            v-if="viewMode === config.viewModes.POPULARITY"
+                            v-if="viewMode === config.viewModes.POPULARITY && showLayer"
                             ref="popularityView"
                             :sub-view-mode="subViewMode"
                             :zoom="zoom"
@@ -180,25 +214,17 @@
             </section>
         </div>
 
-        <b-modal
-            :active="showAboutModal"
-            @close="showAboutModal = false"
-            style="z-index: 999"
-        >
-            <About />
-        </b-modal>
     </div>
 </template>
 
 <script>
-import { LControl, LMap, LTileLayer } from "vue2-leaflet";
+import { LControl, LMap, LTileLayer, LGeoJson } from "vue2-leaflet";
 import { ScalingSquaresSpinner } from "epic-spinners";
 
 import Config from "@/constants";
 import MapLegend from "@/components/MapLegend";
 import Navigation from "@/components/Navigation";
 import Sidebar from "@/components/Sidebar";
-import About from "@/views/About";
 
 import RideView from "@/viewModes/ride/RideView";
 import IncidentView from "@/viewModes/incident/IncidentView";
@@ -216,6 +242,7 @@ export default {
         LMap,
         LTileLayer,
         LControl,
+        LGeoJson,
         ScalingSquaresSpinner,
         // Components
         MapLegend,
@@ -230,8 +257,7 @@ export default {
         BoxAnalysisView,
         ToolsView,
         PopularityView,
-        Statistics,
-        About
+        Statistics
     },
     data() {
         return {
@@ -242,7 +268,6 @@ export default {
                 parseInt(this.$route.query.sm) || Config.subViewModes.DEFAULT,
             loadingProgress: null,
             regions: null,
-            showAboutModal: false,
 
             // Map
             mapObject: null,
@@ -251,19 +276,99 @@ export default {
                 Config.getDefaultMapStyle(),
             zoom: parseInt(this.$route.query.z) || 15,
             center: [
-                this.$route.query.lat || 52.5125322,
-                this.$route.query.lng || 13.3269446
+                this.$route.query.lat || process.env.VUE_APP_LAT,
+                this.$route.query.lng || process.env.VUE_APP_LON
             ],
             bounds: null,
+            geojsonRSV: require("@/assets/Walldorf_RVS_KAT_RSV.json"),
+            geojsonPP: require("@/assets/Walldorf_RVS_KAT_PP.json"),
+            geojsonP: require("@/assets/Walldorf_RVS_KAT_P.json"),
+            geojsonB: require("@/assets/Walldorf_RVS_KAT_B.json"),
+            geojsonV: require("@/assets/Walldorf_RVS_KAT_V.json"),
+            fillColor: "#e4ce7f",
 
             // Extras for view modes
             boxAnalysisMapLayer: null,
 
             // Whether incidents should be visible as an overlay or not
             incidentsVisible: false,
+
+            rsvCheckedBoxes: ['rsv','pp','p','b','v'],
+            layerCheckBoxedIsChecked: true,
+            showLayer: true,
         };
     },
+    computed: {
+      options() {
+        return {
+          onEachFeature: this.onEachFeatureFunction,
+        };
+      },
+      styleFunction() {
+        const fillColor = this.fillColor; // important! need touch fillColor in computed for re-calculate when change fillColor
+        return (feature) => {
+          return {
+            weight: 2,
+            color: this.getColor(feature.properties.Route_kat),
+            opacity: 1,
+            dashArray: this.getDashArray(feature.properties.LS),
+            fillColor: fillColor,
+            fillOpacity: 1
+          };
+        };
+      },
+      getColor() {
+        return(route_kat) => {
+          switch (route_kat) {
+            case "RSV": return "#6c0085"
+            case "P": return "#ff0000"
+            case "PP": return "#ad0000"
+            case "B": return "#0000ff"
+            case "V": return "#00b900"
+            default: return "#ffffff"
+          }
+        }
+      },
+      getDashArray() {
+        return(ls) => {
+          if (ls === 0) {
+            return null
+          } else {
+            return '10,5'
+          }
+        }
+      },
+      onEachFeatureFunction() {
+        return (feature, layer) => {
+          layer.bindTooltip(
+              "<div>Str_name:" +
+              feature.properties.Str_name +
+              "</div><div>Massn_Nr: " +
+              feature.properties.Massn_Nr +
+              "</div>",
+              { permanent: false, sticky: true }
+          );
+        };
+      }
+    },
     methods: {
+      toggleRsv(value) {
+        if (value.checked) {
+          if(!this.rsvCheckedBoxes.includes(value.value)) {
+            this.rsvCheckedBoxes.push(value.value);
+          }
+        } else {
+          if (this.rsvCheckedBoxes.includes(value.value)) {
+            const index = this.rsvCheckedBoxes.indexOf(value.value);
+            if (index > -1) { // only splice array when item is found
+              this.rsvCheckedBoxes.splice(index, 1); // 2nd parameter means remove one item only
+            }
+          }
+        }
+      },
+        toggleLayer(checked) {
+          this.showLayer = checked;
+        },
         updateUrlQuery() {
             this.$router
                 .replace({
@@ -341,7 +446,7 @@ export default {
         }
     },
     async mounted() {
-        fetch("http://207.180.205.80:8000/api/regions/")
+        fetch(process.env.VUE_APP_API_URL+"/api/regions/")
             .then(r => r.json())
             .then(r => (this.regions = r));
 

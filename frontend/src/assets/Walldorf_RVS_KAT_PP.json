@@ -1,0 +1,2523 @@
+{
+"type": "FeatureCollection",
+"name": "Export_Radverkehrsnetz",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 2,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-022",
+      "Str_Kn": "K",
+      "Fform_Bst": "Übergang auf Hochbord",
+      "LS": 0,
+      "Laenge": 7,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Haupstraße / Geh-/Radweg Hauptstraße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 7.08684813597
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.634878346516075,
+          49.301826436173464
+        ],
+        [
+          8.634972989783172,
+          49.3018417040244
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 4,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-040",
+      "Str_Kn": "K",
+      "Fform_Bst": "Wartepflichtige Querung",
+      "LS": 0,
+      "Laenge": 8,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Kleinfeldweg / Kopernikusstraße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 8.35606091925
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.651748811268048,
+          49.2943951291474
+        ],
+        [
+          8.651735366964498,
+          49.29446977651013
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 8,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-017",
+      "Str_Kn": "S",
+      "Fform_Bst": "Verkehrsberuhigter Bereich",
+      "LS": 0,
+      "Laenge": 161,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Hochholzerstraße",
+      "Str_von": "Bürgermeister-Willinger-Straße",
+      "Str_bis": "Schlossweg",
+      "Shape_Leng": 160.697377104
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.635943537806797,
+          49.300002705444975
+        ],
+        [
+          8.635983100136722,
+          49.30011240028157
+        ],
+        [
+          8.636053135709957,
+          49.30027001751462
+        ],
+        [
+          8.636138049774008,
+          49.30047050306918
+        ],
+        [
+          8.636217500242688,
+          49.30062269966044
+        ],
+        [
+          8.63633329991871,
+          49.30080390038201
+        ],
+        [
+          8.636460138526488,
+          49.301033765407354
+        ],
+        [
+          8.636506987668957,
+          49.301201787870646
+        ],
+        [
+          8.636549224508366,
+          49.30130030270688
+        ],
+        [
+          8.636590473476724,
+          49.30133733242237
+        ],
+        [
+          8.636637894424954,
+          49.301362766064585
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 17,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "x",
+      "Str_Kn": "S",
+      "Fform_Bst": null,
+      "LS": 1,
+      "Laenge": 112,
+      "Innort_au": null,
+      "Str_kat": null,
+      "Str_name": "Lückenschluss über den Gutenbergring",
+      "Str_von": "bestehender Weg entlang der L723",
+      "Str_bis": "bestehender Weg entlang der L723",
+      "Shape_Leng": 111.648159347
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.657953894153904,
+          49.2908282449076
+        ],
+        [
+          8.658026525162281,
+          49.29079225515262
+        ],
+        [
+          8.658101255967651,
+          49.29076044982796
+        ],
+        [
+          8.658196261816599,
+          49.29072104502817
+        ],
+        [
+          8.658309402126022,
+          49.29067612485462
+        ],
+        [
+          8.658600813530052,
+          49.29055723326846
+        ],
+        [
+          8.65868722653474,
+          49.290528943214085
+        ],
+        [
+          8.658801199721946,
+          49.290517443930376
+        ],
+        [
+          8.65896525354283,
+          49.29049843384474
+        ],
+        [
+          8.659080376036073,
+          49.29047440468604
+        ],
+        [
+          8.659297160571288,
+          49.29037200150556
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 30,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-006",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gehweg Rad frei",
+      "LS": 1,
+      "Laenge": 305,
+      "Innort_au": "a",
+      "Str_kat": "B",
+      "Str_name": "B291",
+      "Str_von": "Möbelhaus",
+      "Str_bis": "Carl-Zeiss-Straße",
+      "Shape_Leng": 304.593891594
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.631537992475488,
+          49.30730517172481
+        ],
+        [
+          8.631581863735013,
+          49.30729584148428
+        ],
+        [
+          8.63162862233986,
+          49.30728875123105
+        ],
+        [
+          8.631661364683508,
+          49.30727678768295
+        ],
+        [
+          8.631691338252587,
+          49.30725553139384
+        ],
+        [
+          8.631737823390043,
+          49.30720926449076
+        ],
+        [
+          8.631990332044623,
+          49.306854989281206
+        ],
+        [
+          8.632450445879943,
+          49.30626511957061
+        ],
+        [
+          8.632675778988752,
+          49.305974049058975
+        ],
+        [
+          8.63299441918508,
+          49.305551984616415
+        ],
+        [
+          8.633134922620025,
+          49.30535403785853
+        ],
+        [
+          8.633240299888218,
+          49.30512827973773
+        ],
+        [
+          8.633365749233374,
+          49.30491233685393
+        ],
+        [
+          8.633390449789603,
+          49.30488211139856
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 40,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-025",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gemeinsamer Geh-/Radweg",
+      "LS": 0,
+      "Laenge": 135,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Brücke L723",
+      "Str_von": "Wirtschaftsweg",
+      "Str_bis": "BrückeHasso-Plattner-Ring",
+      "Shape_Leng": 134.555412803
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.635152861103224,
+          49.297166386899
+        ],
+        [
+          8.635160073289827,
+          49.29730656623785
+        ],
+        [
+          8.635186425974949,
+          49.29744595955301
+        ],
+        [
+          8.635380722315341,
+          49.29813084489214
+        ],
+        [
+          8.635446101089146,
+          49.298359937921475
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 41,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-026",
+      "Str_Kn": "K",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 0,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Brücke L723 / Verbindung zum Weg entlang der L723",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 0.188989973438
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.635152861103224,
+          49.297166386899
+        ],
+        [
+          8.635154785101301,
+          49.297167529963964
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 42,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-015",
+      "Str_Kn": "S",
+      "Fform_Bst": "Radfahrstreifen / Schutzstreifen",
+      "LS": 0,
+      "Laenge": 231,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Bürgermeister-Willinger-Straße",
+      "Str_von": "B291",
+      "Str_bis": "Hochholzerstraße",
+      "Shape_Leng": 231.287609316
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.635943537806797,
+          49.300002705444975
+        ],
+        [
+          8.635306733409319,
+          49.300186606205926
+        ],
+        [
+          8.634699547112858,
+          49.30041195958974
+        ],
+        [
+          8.633736517679942,
+          49.300789829064584
+        ],
+        [
+          8.633152290407596,
+          49.30099610624336
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 43,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-023",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gehweg Rad frei",
+      "LS": 0,
+      "Laenge": 124,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Haupstraße",
+      "Str_von": "Übergang auf den Geh-/Radweg",
+      "Str_bis": "B291",
+      "Shape_Leng": 124.445452345
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.633836593720355,
+          49.30239753297958
+        ],
+        [
+          8.63418213218559,
+          49.30235493866189
+        ],
+        [
+          8.634195484060037,
+          49.3023490630042
+        ],
+        [
+          8.634207268598054,
+          49.30233917863357
+        ],
+        [
+          8.634206310887187,
+          49.302324728459105
+        ],
+        [
+          8.634094856790272,
+          49.30213552291375
+        ],
+        [
+          8.634090785011628,
+          49.30211009686517
+        ],
+        [
+          8.634094381091604,
+          49.302091832763146
+        ],
+        [
+          8.634107029188907,
+          49.30207324830891
+        ],
+        [
+          8.63414127031858,
+          49.302050033138975
+        ],
+        [
+          8.63435047419642,
+          49.30197880855702
+        ],
+        [
+          8.634727550703094,
+          49.30188218035345
+        ],
+        [
+          8.634917687928892,
+          49.30183352272842
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 45,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-004",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gehweg Rad frei",
+      "LS": 1,
+      "Laenge": 176,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "B291",
+      "Str_von": "Rennbahnstraße",
+      "Str_bis": "Möbelhaus",
+      "Shape_Leng": 176.031353718
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.630397129242834,
+          49.308649667786625
+        ],
+        [
+          8.630406881613563,
+          49.30857961227874
+        ],
+        [
+          8.630413398757064,
+          49.308562458659715
+        ],
+        [
+          8.630437632328702,
+          49.30854953994784
+        ],
+        [
+          8.630510124051225,
+          49.30853816798226
+        ],
+        [
+          8.630568451308365,
+          49.308522573339886
+        ],
+        [
+          8.630611929255691,
+          49.30849904065065
+        ],
+        [
+          8.630644125880734,
+          49.308465259683494
+        ],
+        [
+          8.630668580017414,
+          49.30842263600725
+        ],
+        [
+          8.630727250521378,
+          49.30836109059952
+        ],
+        [
+          8.630788727683395,
+          49.30830373148115
+        ],
+        [
+          8.630840184969125,
+          49.30825748083086
+        ],
+        [
+          8.630888143562753,
+          49.308204255828244
+        ],
+        [
+          8.630939050290355,
+          49.30813665155942
+        ],
+        [
+          8.631002109535366,
+          49.30805748231158
+        ],
+        [
+          8.631091822324441,
+          49.30792641327361
+        ],
+        [
+          8.631165778160538,
+          49.3078138589911
+        ],
+        [
+          8.631214561509507,
+          49.307745319519405
+        ],
+        [
+          8.631274060101937,
+          49.3077151075207
+        ],
+        [
+          8.631305564607565,
+          49.307679004304816
+        ],
+        [
+          8.631353175916054,
+          49.307577041306715
+        ],
+        [
+          8.631434663149046,
+          49.3074064920706
+        ],
+        [
+          8.631469098776302,
+          49.30735786609546
+        ],
+        [
+          8.631532527191938,
+          49.307307529922184
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 54,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-011",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gehweg Rad frei",
+      "LS": 0,
+      "Laenge": 75,
+      "Innort_au": "a",
+      "Str_kat": "B",
+      "Str_name": "B291",
+      "Str_von": "Alte Friedhofstraße",
+      "Str_bis": "Am Friedhof",
+      "Shape_Leng": 74.9513161331
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.63382756228057,
+          49.302395067571425
+        ],
+        [
+          8.633774001738738,
+          49.30229533660377
+        ],
+        [
+          8.633720512455936,
+          49.30218620588199
+        ],
+        [
+          8.633666519466486,
+          49.30207324519176
+        ],
+        [
+          8.63361413756283,
+          49.301979011231055
+        ],
+        [
+          8.633561282794286,
+          49.30190720790318
+        ],
+        [
+          8.633501234115814,
+          49.30183503991893
+        ],
+        [
+          8.633455553679484,
+          49.30180765945865
+        ],
+        [
+          8.63341202506688,
+          49.30179115916921
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 55,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-043",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gemeinsamer Geh-/Radweg",
+      "LS": 0,
+      "Laenge": 241,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "Weg parallel zur L723",
+      "Str_von": "Philipp-Reis-Straße",
+      "Str_bis": "Gutenbergring",
+      "Shape_Leng": 241.356121558
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.657948538435326,
+          49.29083310264571
+        ],
+        [
+          8.657909011105227,
+          49.290853872455614
+        ],
+        [
+          8.657733881276897,
+          49.29101209549418
+        ],
+        [
+          8.657657209480016,
+          49.2910907597413
+        ],
+        [
+          8.65753579908474,
+          49.29117964931248
+        ],
+        [
+          8.657439080474413,
+          49.29123540983052
+        ],
+        [
+          8.657170955190754,
+          49.29137246857385
+        ],
+        [
+          8.656598316516444,
+          49.291674326946314
+        ],
+        [
+          8.656054399255675,
+          49.29197766041534
+        ],
+        [
+          8.655483275413976,
+          49.29227033007002
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 75,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-033",
+      "Str_Kn": "S",
+      "Fform_Bst": "Lücke",
+      "LS": 1,
+      "Laenge": 58,
+      "Innort_au": "a",
+      "Str_kat": "LS",
+      "Str_name": "L723",
+      "Str_von": "Industriestraße",
+      "Str_bis": "Parkplatz SAP",
+      "Shape_Leng": 57.9533332404
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.642940991569073,
+          49.29613339569416
+        ],
+        [
+          8.643037602142083,
+          49.2961698988583
+        ],
+        [
+          8.643077822399459,
+          49.29620204952514
+        ],
+        [
+          8.643099048106308,
+          49.2962396312729
+        ],
+        [
+          8.643130979690351,
+          49.29628541370069
+        ],
+        [
+          8.643166491568929,
+          49.296306410166586
+        ],
+        [
+          8.643219079599081,
+          49.29632119330269
+        ],
+        [
+          8.643589056164021,
+          49.29637394211932
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 144,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-024",
+      "Str_Kn": "S",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 181,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Wirtschaftsweg Richtung SAP",
+      "Str_von": "Bürgermeister-Willinger-Straße",
+      "Str_bis": "Brücke 723",
+      "Shape_Leng": 180.902852541
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.63544502753965,
+          49.298361153381194
+        ],
+        [
+          8.635786680578935,
+          49.29954062832896
+        ],
+        [
+          8.635897948381789,
+          49.299905324885984
+        ],
+        [
+          8.635922522440143,
+          49.29995781718687
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 223,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-044",
+      "Str_Kn": "K",
+      "Fform_Bst": "Signalisierter Knotenpunkt",
+      "LS": 1,
+      "Laenge": 8,
+      "Innort_au": "a",
+      "Str_kat": "L",
+      "Str_name": "L723 / Gutenbergring",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 7.5506571271
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.658387329754,
+          49.29067320693934
+        ],
+        [
+          8.658391852747396,
+          49.29060535253852
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 224,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-041",
+      "Str_Kn": "S",
+      "Fform_Bst": "Tempo 50, Schutzstreifen einseitig",
+      "LS": 0,
+      "Laenge": 362,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "Kleinfeldweg",
+      "Str_von": "Kopernikusstraße",
+      "Str_bis": "Philipp-Reis-Straße",
+      "Shape_Leng": 361.66963476
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.655469942909006,
+          49.292276747062665
+        ],
+        [
+          8.655387201572427,
+          49.29232765414857
+        ],
+        [
+          8.65458272999522,
+          49.292771300885775
+        ],
+        [
+          8.653467133582387,
+          49.293367115509
+        ],
+        [
+          8.652624030929223,
+          49.29380571503889
+        ],
+        [
+          8.65209319743753,
+          49.2941453646707
+        ],
+        [
+          8.65183214962333,
+          49.29433116997406
+        ],
+        [
+          8.651745293057099,
+          49.29442072242543
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 225,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-042",
+      "Str_Kn": "K",
+      "Fform_Bst": "Rechts-vor-Links",
+      "LS": 0,
+      "Laenge": 3,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "Kleinfeldweg / Philipp-Reis-Straße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 3.14323926276
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.65549060870927,
+          49.2922791537194
+        ],
+        [
+          8.655455939140957,
+          49.292262266242396
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 226,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-039",
+      "Str_Kn": "S",
+      "Fform_Bst": "Tempo 50, Schutzstreifen einseitig",
+      "LS": 0,
+      "Laenge": 351,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "Kleinfeldweg",
+      "Str_von": "L723",
+      "Str_bis": "Kopernikusstraße",
+      "Shape_Leng": 350.844608443
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.65174200888628,
+          49.294433592726364
+        ],
+        [
+          8.651720087770535,
+          49.294478468379324
+        ],
+        [
+          8.651702236153266,
+          49.29452100855154
+        ],
+        [
+          8.651670027001721,
+          49.29458020589441
+        ],
+        [
+          8.651596824935867,
+          49.294631765070434
+        ],
+        [
+          8.651470918209807,
+          49.29467091201884
+        ],
+        [
+          8.651309872834243,
+          49.294709103661965
+        ],
+        [
+          8.651202998912543,
+          49.294757798560845
+        ],
+        [
+          8.650712545937761,
+          49.295070016848335
+        ],
+        [
+          8.650141109165428,
+          49.29544497123184
+        ],
+        [
+          8.649455338454187,
+          49.29587380253349
+        ],
+        [
+          8.648988913567553,
+          49.29619543953372
+        ],
+        [
+          8.648792105180577,
+          49.29632642931809
+        ],
+        [
+          8.648692330332414,
+          49.29636024205015
+        ],
+        [
+          8.64858526304242,
+          49.29638709813771
+        ],
+        [
+          8.648436984294879,
+          49.29641446741495
+        ],
+        [
+          8.64818130364919,
+          49.29644084302691
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 227,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-038",
+      "Str_Kn": "S",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 56,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "L723",
+      "Str_von": "Lückenschluss",
+      "Str_bis": "Kleinfeldweg",
+      "Shape_Leng": 55.588160947
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.648173453025901,
+          49.29644064461918
+        ],
+        [
+          8.648139903305076,
+          49.29644297926437
+        ],
+        [
+          8.648111884624784,
+          49.29645333734982
+        ],
+        [
+          8.648081120499082,
+          49.29647569742857
+        ],
+        [
+          8.648037849881302,
+          49.29649749678876
+        ],
+        [
+          8.647993030913668,
+          49.29651267816186
+        ],
+        [
+          8.647887537772949,
+          49.29652697753215
+        ],
+        [
+          8.647457037998983,
+          49.296585802249524
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 228,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-037",
+      "Str_Kn": "K",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 1,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "L723 / Basisroute",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 0.969456163039
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.647456798491527,
+          49.296581972271866
+        ],
+        [
+          8.647454232885499,
+          49.29659052965272
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 229,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-036",
+      "Str_Kn": "K",
+      "Fform_Bst": "Signalisierter Knoten ohne Querungsmöglichkeit",
+      "LS": 1,
+      "Laenge": 13,
+      "Innort_au": "a",
+      "Str_kat": "L",
+      "Str_name": "L723 / Dietmar-Hopp-Allee",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 13.1033913879
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.646684513424212,
+          49.29668639809848
+        ],
+        [
+          8.646825559403316,
+          49.2966130283172
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 230,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-031",
+      "Str_Kn": "S",
+      "Fform_Bst": "Lücke",
+      "LS": 1,
+      "Laenge": 438,
+      "Innort_au": "a",
+      "Str_kat": "LS",
+      "Str_name": "L723",
+      "Str_von": "Hasso-Plattner-Ring",
+      "Str_bis": "Industriestraße",
+      "Shape_Leng": 438.320994833
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.642935681579031,
+          49.296131638720006
+        ],
+        [
+          8.642827243297656,
+          49.29611146114383
+        ],
+        [
+          8.64278999040428,
+          49.29611064976929
+        ],
+        [
+          8.642751641433861,
+          49.2961140123553
+        ],
+        [
+          8.642692440224431,
+          49.29613053876562
+        ],
+        [
+          8.642619436685393,
+          49.29614180075996
+        ],
+        [
+          8.642175866367507,
+          49.29615087332029
+        ],
+        [
+          8.641850141478361,
+          49.29614707936359
+        ],
+        [
+          8.641520709897206,
+          49.29614083619623
+        ],
+        [
+          8.641353036308697,
+          49.296141708385015
+        ],
+        [
+          8.641128345580018,
+          49.29615145422614
+        ],
+        [
+          8.640871063190527,
+          49.29617815590643
+        ],
+        [
+          8.640372432371919,
+          49.29623613351132
+        ],
+        [
+          8.639832846983852,
+          49.296289803067616
+        ],
+        [
+          8.639505217421886,
+          49.29632811918938
+        ],
+        [
+          8.639281456753293,
+          49.29635631435283
+        ],
+        [
+          8.639047487478138,
+          49.29639735829289
+        ],
+        [
+          8.638621565758536,
+          49.29648375261614
+        ],
+        [
+          8.63790759816942,
+          49.29665418374466
+        ],
+        [
+          8.637845240567982,
+          49.2966651279672
+        ],
+        [
+          8.637752607792613,
+          49.296667274420635
+        ],
+        [
+          8.637680291640944,
+          49.296657300531734
+        ],
+        [
+          8.637609629627805,
+          49.296639325176315
+        ],
+        [
+          8.637545440419574,
+          49.29660988143753
+        ],
+        [
+          8.637384079748918,
+          49.296548107253436
+        ],
+        [
+          8.637321866576817,
+          49.29653955729531
+        ],
+        [
+          8.637280849321382,
+          49.29654395403204
+        ],
+        [
+          8.637242435781209,
+          49.29655601742294
+        ],
+        [
+          8.637184775338905,
+          49.29657985623077
+        ],
+        [
+          8.637149999510227,
+          49.29660411498165
+        ],
+        [
+          8.637111539882818,
+          49.29662244512533
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 231,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-032",
+      "Str_Kn": "K",
+      "Fform_Bst": "Lücke",
+      "LS": 1,
+      "Laenge": 3,
+      "Innort_au": "a",
+      "Str_kat": "L",
+      "Str_name": "L723 / Industriestraße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 3.20421853474
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.642956626839341,
+          49.296125960914225
+        ],
+        [
+          8.642918372086378,
+          49.29614027007959
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 232,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-030",
+      "Str_Kn": "K",
+      "Fform_Bst": "Wartepflichtige Querung",
+      "LS": 0,
+      "Laenge": 4,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "L723 / Hasso-Plattner-Ring",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 3.77745183128
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.63709015768733,
+          49.29664217996411
+        ],
+        [
+          8.63712666594106,
+          49.29661800492949
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 233,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-029",
+      "Str_Kn": "S",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 149,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "L723",
+      "Str_von": "Verbindung zu Brücken Richtung Innenstadt und SAP",
+      "Str_bis": "Hasso-Plattner-Ring",
+      "Shape_Leng": 148.843213657
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.635570840774418,
+          49.29749507089869
+        ],
+        [
+          8.635607842758043,
+          49.29750037869863
+        ],
+        [
+          8.635638545298104,
+          49.297499353809094
+        ],
+        [
+          8.635722860017594,
+          49.29746732963328
+        ],
+        [
+          8.636106517735197,
+          49.297283840403814
+        ],
+        [
+          8.63636853050223,
+          49.297121746307724
+        ],
+        [
+          8.636627337725606,
+          49.29696103398839
+        ],
+        [
+          8.636921539946302,
+          49.29676422760532
+        ],
+        [
+          8.636997530295638,
+          49.296708768188985
+        ],
+        [
+          8.637096035300853,
+          49.296631795498065
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 234,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-028",
+      "Str_Kn": "K",
+      "Fform_Bst": "Knoten zweier Wirtschaftswege",
+      "LS": 0,
+      "Laenge": 7,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Verbindung zum Weg entlang der L723 / L723",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 7.36695478481
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.635512414962786,
+          49.29751015864582
+        ],
+        [
+          8.635604438943027,
+          49.29748242528459
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 235,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-016",
+      "Str_Kn": "K",
+      "Fform_Bst": "Wartepflichtige Querung",
+      "LS": 0,
+      "Laenge": 5,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Bürgermeister-Willinger-Straße / Hochholzerstraße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 5.21897365668
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.635922522440143,
+          49.29995781718687
+        ],
+        [
+          8.635943537806797,
+          49.300002705444975
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 236,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-018",
+      "Str_Kn": "K",
+      "Fform_Bst": "Mischverkehr Tempo 30",
+      "LS": 0,
+      "Laenge": 3,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Hochholzerstraße / Schlossweg",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 2.88921821459
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.636620842515772,
+          49.30136514923923
+        ],
+        [
+          8.636660545522851,
+          49.30136401025422
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 237,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-019",
+      "Str_Kn": "S",
+      "Fform_Bst": "Mischverkehr Tempo 30",
+      "LS": 0,
+      "Laenge": 49,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Hochholzerstraße",
+      "Str_von": "Schlossweg",
+      "Str_bis": "Hauptstraße",
+      "Shape_Leng": 49.0989758774
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.636643485936121,
+          49.301367437747444
+        ],
+        [
+          8.636678956365747,
+          49.301394005867614
+        ],
+        [
+          8.636697904661878,
+          49.30142330694128
+        ],
+        [
+          8.636704064661341,
+          49.30145430927483
+        ],
+        [
+          8.636711148560963,
+          49.30150445983479
+        ],
+        [
+          8.636734612849327,
+          49.30164378064381
+        ],
+        [
+          8.636773163084634,
+          49.30179446208861
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 238,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-020",
+      "Str_Kn": "K",
+      "Fform_Bst": "Rechts-vor-Links",
+      "LS": 0,
+      "Laenge": 5,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Hochholzerstraße / Hauptstraße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 4.95797638783
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.636788688636798,
+          49.30178267504033
+        ],
+        [
+          8.6367482332029,
+          49.30181857803943
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 239,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-021",
+      "Str_Kn": "S",
+      "Fform_Bst": "Mischverkehr Tempo 30",
+      "LS": 0,
+      "Laenge": 135,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Hauptstraße",
+      "Str_von": "Dannheckerstraße",
+      "Str_bis": "Übergang in Seitenraum",
+      "Shape_Leng": 135.017728729
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.63492036237292,
+          49.301831790611814
+        ],
+        [
+          8.635035606491547,
+          49.30179664618903
+        ],
+        [
+          8.635117679106584,
+          49.3017824366243
+        ],
+        [
+          8.635286711740084,
+          49.30178174866555
+        ],
+        [
+          8.636274937582414,
+          49.30179797820988
+        ],
+        [
+          8.636762469408922,
+          49.301800869019026
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 240,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-008",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gehweg Rad frei",
+      "LS": 0,
+      "Laenge": 181,
+      "Innort_au": "a",
+      "Str_kat": "B",
+      "Str_name": "B291",
+      "Str_von": "Carl-Zeiss-Straße",
+      "Str_bis": "Weg mit Begrünung zur Bundesstraße",
+      "Shape_Leng": 180.525435499
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.6334024164328,
+          49.304868366066465
+        ],
+        [
+          8.633498738740355,
+          49.30474959986384
+        ],
+        [
+          8.633548904402781,
+          49.30468821221837
+        ],
+        [
+          8.63362785537639,
+          49.30457178893139
+        ],
+        [
+          8.633855183395548,
+          49.3041635882005
+        ],
+        [
+          8.634031895055331,
+          49.30378446910808
+        ],
+        [
+          8.634076185181247,
+          49.30365046801243
+        ],
+        [
+          8.63410434394277,
+          49.303490423384424
+        ],
+        [
+          8.634107908191694,
+          49.30339249797226
+        ],
+        [
+          8.634101426498379,
+          49.30332710326236
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 241,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-007",
+      "Str_Kn": "K",
+      "Fform_Bst": "Wartepflichtige Querung über zwei Verkehrsinseln",
+      "LS": 0,
+      "Laenge": 11,
+      "Innort_au": "a",
+      "Str_kat": "B",
+      "Str_name": "B291 / Carl-Zeiss-Straße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 11.1877835988
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.633332132479415,
+          49.304869999691114
+        ],
+        [
+          8.633484644418838,
+          49.304883479701516
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 242,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": null,
+      "Str_Kn": "K",
+      "Fform_Bst": null,
+      "LS": 0,
+      "Laenge": 0,
+      "Innort_au": null,
+      "Str_kat": null,
+      "Str_name": null,
+      "Str_von": null,
+      "Str_bis": null,
+      "Shape_Leng": 0
+    },
+    "geometry": null
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 243,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-003",
+      "Str_Kn": "K",
+      "Fform_Bst": "Querung ohne Mittelinsel / Lücke",
+      "LS": 1,
+      "Laenge": 9,
+      "Innort_au": "a",
+      "Str_kat": "B",
+      "Str_name": "B291 / Rennbahnstraße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 9.4766260207
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.630352739794503,
+          49.308700119096486
+        ],
+        [
+          8.630434260410677,
+          49.30863359704135
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 245,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-001",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gemeinsamer Geh-/Radweg",
+      "LS": 0,
+      "Laenge": 1168,
+      "Innort_au": "a",
+      "Str_kat": "B",
+      "Str_name": "B291",
+      "Str_von": "Gemarkungsgrenze Leimen",
+      "Str_bis": "L598",
+      "Shape_Leng": 1168.31180029
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.63164140377948,
+          49.31831722453806
+        ],
+        [
+          8.631581677677612,
+          49.31839691015643
+        ],
+        [
+          8.631458152361866,
+          49.31864308045744
+        ],
+        [
+          8.631363154287236,
+          49.318829916085924
+        ],
+        [
+          8.63134039594822,
+          49.318873875627325
+        ],
+        [
+          8.631184313105258,
+          49.319057591914884
+        ],
+        [
+          8.62923234383395,
+          49.320606327874025
+        ],
+        [
+          8.628868971711473,
+          49.32092121491556
+        ],
+        [
+          8.628479333897022,
+          49.32129922703169
+        ],
+        [
+          8.62800496550359,
+          49.32179917221481
+        ],
+        [
+          8.627563295774507,
+          49.322236010140365
+        ],
+        [
+          8.627142813791396,
+          49.32263720849974
+        ],
+        [
+          8.626868817724825,
+          49.32290171953845
+        ],
+        [
+          8.626454011828699,
+          49.32327673443844
+        ],
+        [
+          8.62585030665688,
+          49.32381616127762
+        ],
+        [
+          8.62514944643144,
+          49.32442071218468
+        ],
+        [
+          8.62430128627708,
+          49.32517489000564
+        ],
+        [
+          8.623474780876283,
+          49.32590703912209
+        ],
+        [
+          8.6226741935267,
+          49.32660233375118
+        ],
+        [
+          8.622387173447494,
+          49.32687063872111
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 261,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-002",
+      "Str_Kn": "S",
+      "Fform_Bst": "Lücke",
+      "LS": 1,
+      "Laenge": 1100,
+      "Innort_au": "a",
+      "Str_kat": "B",
+      "Str_name": "B291",
+      "Str_von": "L598",
+      "Str_bis": "Rennbahnstraße",
+      "Shape_Leng": 1100.35681343
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.631643461874875,
+          49.318307497450405
+        ],
+        [
+          8.631659962549026,
+          49.31822449246153
+        ],
+        [
+          8.63165376401754,
+          49.317990873259305
+        ],
+        [
+          8.631635044276804,
+          49.317838973725074
+        ],
+        [
+          8.631527865980285,
+          49.317569992008856
+        ],
+        [
+          8.63134455378387,
+          49.31726715158622
+        ],
+        [
+          8.631282041693485,
+          49.3171758511119
+        ],
+        [
+          8.630900675720126,
+          49.316488922846105
+        ],
+        [
+          8.630529346721344,
+          49.31557627493767
+        ],
+        [
+          8.630253358846044,
+          49.31479773092623
+        ],
+        [
+          8.629967336041528,
+          49.31384906736719
+        ],
+        [
+          8.629866976504717,
+          49.313230790641654
+        ],
+        [
+          8.629806761435393,
+          49.312694290479946
+        ],
+        [
+          8.629811779498553,
+          49.31201711437879
+        ],
+        [
+          8.629897084818579,
+          49.31130721459843
+        ],
+        [
+          8.6299813212858,
+          49.31090041928201
+        ],
+        [
+          8.63012734470308,
+          49.31036060964226
+        ],
+        [
+          8.63033602936966,
+          49.30979500780776
+        ],
+        [
+          8.630541947939284,
+          49.30931387384812
+        ],
+        [
+          8.630543737230106,
+          49.309169527038165
+        ],
+        [
+          8.630545962179495,
+          49.309061849489176
+        ],
+        [
+          8.630569725331698,
+          49.308977745144986
+        ],
+        [
+          8.630578825955913,
+          49.30890449156273
+        ],
+        [
+          8.630563767428407,
+          49.308864176589246
+        ],
+        [
+          8.630542452269275,
+          49.30883285836092
+        ],
+        [
+          8.630512369967532,
+          49.3088073850393
+        ],
+        [
+          8.630480680446064,
+          49.30878674866581
+        ],
+        [
+          8.63043806434267,
+          49.30876748328659
+        ],
+        [
+          8.630412568454313,
+          49.3087459168111
+        ],
+        [
+          8.630398010771758,
+          49.308721614802934
+        ],
+        [
+          8.630398448253718,
+          49.30866313326351
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 262,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-010",
+      "Str_Kn": "K",
+      "Fform_Bst": "Knoten mehrerer Gehwege",
+      "LS": 0,
+      "Laenge": 4,
+      "Innort_au": "i",
+      "Str_kat": "L",
+      "Str_name": "B291 / Alte Friedhofstraße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 3.73490089031
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.633857907282875,
+          49.30239481560507
+        ],
+        [
+          8.633807292727047,
+          49.30240057315323
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 263,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-014",
+      "Str_Kn": "K",
+      "Fform_Bst": "Vollsignalisierter Knoten",
+      "LS": 0,
+      "Laenge": 5,
+      "Innort_au": "a",
+      "Str_kat": "B",
+      "Str_name": "B291 / Bürgermeister-Willinger-Straße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 4.50720689838
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.632921726187273,
+          49.30109211537931
+        ],
+        [
+          8.632907908419272,
+          49.301052592574635
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 270,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-005",
+      "Str_Kn": "K",
+      "Fform_Bst": "Abzweig eines Weges",
+      "LS": 0,
+      "Laenge": 0,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "B291 / Zuwegung Möbelhaus",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 0.340801951554
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.631532527191938,
+          49.307307529922184
+        ],
+        [
+          8.631535508054275,
+          49.30730516380367
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 271,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-009",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gehweg Rad frei",
+      "LS": 0,
+      "Laenge": 105,
+      "Innort_au": "a",
+      "Str_kat": "B",
+      "Str_name": "B291",
+      "Str_von": "Weg direkt an der Bundesstraße",
+      "Str_bis": "Alte Friedhofstraße",
+      "Shape_Leng": 105.279903995
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.634101426498379,
+          49.30332710326236
+        ],
+        [
+          8.634083469973792,
+          49.30314595386727
+        ],
+        [
+          8.634020257179017,
+          49.30286401060115
+        ],
+        [
+          8.633960625931635,
+          49.30268547001253
+        ],
+        [
+          8.63391938186965,
+          49.30257603096255
+        ],
+        [
+          8.633830717530302,
+          49.302400299265386
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 272,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-012",
+      "Str_Kn": "S",
+      "Fform_Bst": "Mischverkehr Tempo 50",
+      "LS": 0,
+      "Laenge": 99,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "Am Friedhof",
+      "Str_von": "B291",
+      "Str_bis": "Bürgermeister-Willinger-Straße",
+      "Shape_Leng": 99.315501802
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.633406181119078,
+          49.30178940006532
+        ],
+        [
+          8.63332210977233,
+          49.30176202639127
+        ],
+        [
+          8.633260955367797,
+          49.30172975465334
+        ],
+        [
+          8.633040651982338,
+          49.301507157919886
+        ],
+        [
+          8.632953311172642,
+          49.3014352223065
+        ],
+        [
+          8.632860380318586,
+          49.3013807186009
+        ],
+        [
+          8.632803303010082,
+          49.301365017883484
+        ],
+        [
+          8.63275990903062,
+          49.30136194936535
+        ],
+        [
+          8.63271393447451,
+          49.30136370843373
+        ],
+        [
+          8.632647060095389,
+          49.30136124258093
+        ],
+        [
+          8.632592389411883,
+          49.30135210059323
+        ],
+        [
+          8.632555717250728,
+          49.301332058790166
+        ],
+        [
+          8.632527756379897,
+          49.30130774498402
+        ],
+        [
+          8.632477914136853,
+          49.30124973133368
+        ],
+        [
+          8.632474472501158,
+          49.30123328350996
+        ],
+        [
+          8.632483673550157,
+          49.30121845274719
+        ],
+        [
+          8.632485344831712,
+          49.301217893165436
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 273,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "x",
+      "Str_Kn": "S",
+      "Fform_Bst": null,
+      "LS": 0,
+      "Laenge": 54,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "Bürgermeister-Willinger-Straße",
+      "Str_von": "Am Friedhof",
+      "Str_bis": "B291",
+      "Shape_Leng": 53.581949847
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.63249236229084,
+          49.30121554255583
+        ],
+        [
+          8.63291215818455,
+          49.30107488891549
+        ],
+        [
+          8.633149091391013,
+          49.30099679231454
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 274,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-013",
+      "Str_Kn": "K",
+      "Fform_Bst": "Wartepflichtige Einmündung",
+      "LS": 0,
+      "Laenge": 1,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "Am Friedhof / Bürgermeister-Willinger-Straße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 0.573209952972
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.632485344831712,
+          49.301217893165436
+        ],
+        [
+          8.63249236229084,
+          49.30121554255583
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 275,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-027",
+      "Str_Kn": "S",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 48,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Verbindung zum Weg entlang der L723",
+      "Str_von": "Brücke L723",
+      "Str_bis": "L723",
+      "Shape_Leng": 47.8068323225
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.635154785101301,
+          49.297167529963964
+        ],
+        [
+          8.635310886562227,
+          49.297260288041535
+        ],
+        [
+          8.635369824328299,
+          49.29730609396929
+        ],
+        [
+          8.635442663834096,
+          49.29743184249066
+        ],
+        [
+          8.635478268992982,
+          49.297460747472975
+        ],
+        [
+          8.635513174619485,
+          49.29748119027317
+        ],
+        [
+          8.635555869069666,
+          49.297492138929705
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 276,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-034",
+      "Str_Kn": "S",
+      "Fform_Bst": "Lücke / Privatparkplatz",
+      "LS": 1,
+      "Laenge": 143,
+      "Innort_au": "a",
+      "Str_kat": "LS",
+      "Str_name": "L723",
+      "Str_von": "Parkplatz SAP Anfang",
+      "Str_bis": "Parkplatz SAP Ende",
+      "Shape_Leng": 143.196943195
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.643589056164021,
+          49.29637394211932
+        ],
+        [
+          8.643683279909192,
+          49.296387375542075
+        ],
+        [
+          8.644634142968386,
+          49.29650518273731
+        ],
+        [
+          8.645413842084272,
+          49.29659182215003
+        ],
+        [
+          8.64552730319901,
+          49.296601370508334
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 277,
+      "Route": "PP",
+      "Route_kat": "PP",
+      "Massn_Nr": "PP-035",
+      "Str_Kn": "S",
+      "Fform_Bst": "Lücke",
+      "LS": 1,
+      "Laenge": 141,
+      "Innort_au": "a",
+      "Str_kat": "LS",
+      "Str_name": "L723",
+      "Str_von": "Parkplatz SAP Ende",
+      "Str_bis": "Anschluss Kleinfeldweg",
+      "Shape_Leng": 140.830563983
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.64552730319901,
+          49.296601370508334
+        ],
+        [
+          8.645598430841112,
+          49.296607357273466
+        ],
+        [
+          8.646101191756063,
+          49.29664127260155
+        ],
+        [
+          8.646289050598867,
+          49.29664637323491
+        ],
+        [
+          8.646633317180168,
+          49.29664853647378
+        ],
+        [
+          8.646762503746052,
+          49.29664764782502
+        ],
+        [
+          8.646849797540137,
+          49.29664540317368
+        ],
+        [
+          8.647126269033397,
+          49.29662074011361
+        ],
+        [
+          8.647320917433568,
+          49.29660474002509
+        ],
+        [
+          8.64745379032007,
+          49.296586629792685
+        ]
+      ]
+    }
+  }
+]
+}

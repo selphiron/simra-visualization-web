@@ -52,14 +52,6 @@
                     <country-flag :country='lang.flagCode'/> {{ $t(lang.name) }}
                 </b-navbar-item>
             </b-navbar-dropdown>
-
-            <div class="navbar-item">
-                <div class="buttons">
-                    <a class="button is-primary" @click="$emit('showAboutModal')">
-                        <strong>{{ $t('navigation.about') }}</strong>
-                    </a>
-                </div>
-            </div>
         </template>
     </b-navbar>
 </template>

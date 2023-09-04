@@ -2,7 +2,6 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Map from "@/views/Map.vue";
 import Statistics from "@/views/Statistics.vue";
-import About from "@/views/About.vue";
 import Admin from "@/views/Admin.vue";
 
 Vue.use(VueRouter);
@@ -25,10 +24,6 @@ const routes = [
     {
         path: "/statistics",
         component: Statistics,
-    },
-    {
-        path: "/about",
-        component: About,
     },
     {
         path: "/admin",

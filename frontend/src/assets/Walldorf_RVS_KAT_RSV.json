@@ -1,0 +1,959 @@
+{
+"type": "FeatureCollection",
+"name": "Export_Radverkehrsnetz",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 71,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-004",
+      "Str_Kn": "S",
+      "Fform_Bst": "Lücke / Abschneider",
+      "LS": 0,
+      "Laenge": 122,
+      "Innort_au": "a",
+      "Str_kat": "LS",
+      "Str_name": "Weg westlich der Gleise",
+      "Str_von": "Mögl. Abkürzung Nord",
+      "Str_bis": "Mögl. Abkürzung Süd",
+      "Shape_Leng": 122.393501637
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.665210000509575,
+          49.30638740027724
+        ],
+        [
+          8.664679735682942,
+          49.30607695562326
+        ],
+        [
+          8.664527197654925,
+          49.30594639253577
+        ],
+        [
+          8.664260214021217,
+          49.30559941686171
+        ],
+        [
+          8.664246789592001,
+          49.30556312286419
+        ],
+        [
+          8.664248925554437,
+          49.30554131580436
+        ],
+        [
+          8.664265593412003,
+          49.30552035782849
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 129,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-013",
+      "Str_Kn": "K",
+      "Fform_Bst": "Ungeregelte Kreuzung im Nebennetz",
+      "LS": 0,
+      "Laenge": 4,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Weg westlich der Gleise / Wiesenstraße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 4.39299162492
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.663973839873812,
+          49.294764219602705
+        ],
+        [
+          8.664017624149354,
+          49.294791448483195
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 139,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-016",
+      "Str_Kn": "S",
+      "Fform_Bst": "Mischverkehr Tempo 50",
+      "LS": 0,
+      "Laenge": 52,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Impexstraße",
+      "Str_von": "Weg durch Industriegebiet Impex",
+      "Str_bis": "Gemarkungsgrenze Wiesloch",
+      "Shape_Leng": 51.8035770071
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.664014692912989,
+          49.29226010911426
+        ],
+        [
+          8.663978699912018,
+          49.292272399818714
+        ],
+        [
+          8.663878599369257,
+          49.2922988001025
+        ],
+        [
+          8.66372840038375,
+          49.292321999760354
+        ],
+        [
+          8.663584600383524,
+          49.292335899743435
+        ],
+        [
+          8.663402102510398,
+          49.29235493822116
+        ],
+        [
+          8.663360870177167,
+          49.29236390234538
+        ],
+        [
+          8.66332966433451,
+          49.29237557263305
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 205,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-007",
+      "Str_Kn": "K",
+      "Fform_Bst": "Kreuzung von Wirtschaftswegen",
+      "LS": 0,
+      "Laenge": 2,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Weg westlich der Gleise / Pendlerroute 4",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 2.07440945141
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.664684946231253,
+          49.30144742982152
+        ],
+        [
+          8.664702458406548,
+          49.30146216164573
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 213,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-001",
+      "Str_Kn": "S",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 376,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Wirtschaftsweg entlang Hardtbach",
+      "Str_von": "Gemarkungsgrenze",
+      "Str_bis": "Brücke Hardtbach",
+      "Shape_Leng": 376.165726455
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.666482905842383,
+          49.3100703867818
+        ],
+        [
+          8.666596535384782,
+          49.31010786373255
+        ],
+        [
+          8.666688099592957,
+          49.31014550001431
+        ],
+        [
+          8.666719160427007,
+          49.310172781941894
+        ],
+        [
+          8.666724199613345,
+          49.31019790014823
+        ],
+        [
+          8.666713500028381,
+          49.310247500051126
+        ],
+        [
+          8.666682999644186,
+          49.310348399773744
+        ],
+        [
+          8.666616999319066,
+          49.31058990016651
+        ],
+        [
+          8.666546800071286,
+          49.310814800436134
+        ],
+        [
+          8.666520400614335,
+          49.310966999598655
+        ],
+        [
+          8.66650829966148,
+          49.31114160016142
+        ],
+        [
+          8.666476300131263,
+          49.31131300038766
+        ],
+        [
+          8.666407799748278,
+          49.31154379997137
+        ],
+        [
+          8.666300300260882,
+          49.31191939968546
+        ],
+        [
+          8.666186500371145,
+          49.31227040003126
+        ],
+        [
+          8.666134200434511,
+          49.312427700063715
+        ],
+        [
+          8.666086399513569,
+          49.312542400344206
+        ],
+        [
+          8.66603360052458,
+          49.31263850038154
+        ],
+        [
+          8.665957200600193,
+          49.31273699954931
+        ],
+        [
+          8.665849700439706,
+          49.31283659970633
+        ],
+        [
+          8.665701299423413,
+          49.312940400030456
+        ],
+        [
+          8.665623800587142,
+          49.313015299719495
+        ],
+        [
+          8.665601319114863,
+          49.313084035869444
+        ],
+        [
+          8.665576002805025,
+          49.313231909427856
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 214,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-002",
+      "Str_Kn": "K",
+      "Fform_Bst": "Kreuzung von Wirtschaftswegen",
+      "LS": 0,
+      "Laenge": 3,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Wirtschaftsweg entlang Hardtbach / Zufahrt zum Tierheim",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 3.09868130125
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.666461722821548,
+          49.31006169569769
+        ],
+        [
+          8.66649848547524,
+          49.31007580724559
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 215,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-003",
+      "Str_Kn": "S",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 421,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Weg westlich der Gleise",
+      "Str_von": "Brücke Hardtbach",
+      "Str_bis": "Abknicken des Wegs",
+      "Shape_Leng": 421.294752123
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.665213347372282,
+          49.30638782195122
+        ],
+        [
+          8.665268900424323,
+          49.30646560030332
+        ],
+        [
+          8.665308199548484,
+          49.30653819981725
+        ],
+        [
+          8.665345999648656,
+          49.30662049985322
+        ],
+        [
+          8.665413499966037,
+          49.30712969985178
+        ],
+        [
+          8.66551059938899,
+          49.30759890031759
+        ],
+        [
+          8.66565903294881,
+          49.30807591755688
+        ],
+        [
+          8.665768511256424,
+          49.308322812163794
+        ],
+        [
+          8.665978057111781,
+          49.30874130236989
+        ],
+        [
+          8.666344899737059,
+          49.309475100207436
+        ],
+        [
+          8.66638755718698,
+          49.309603885547695
+        ],
+        [
+          8.66642595893291,
+          49.30979574250116
+        ],
+        [
+          8.666447992243734,
+          49.3099865798179
+        ],
+        [
+          8.666464499214351,
+          49.31004048504249
+        ],
+        [
+          8.666479549163064,
+          49.31006710105981
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 216,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-005",
+      "Str_Kn": "K",
+      "Fform_Bst": "Kreuzung von Wirtschaftswegen",
+      "LS": 0,
+      "Laenge": 4,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Lückenschluss / Weg westlich der Gleise",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 3.72737443482
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.664253086647555,
+          49.3055026747869
+        ],
+        [
+          8.664285522294813,
+          49.30552864179778
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 217,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-006",
+      "Str_Kn": "S",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 485,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Weg westlich der Gleise",
+      "Str_von": "Lückenschluss",
+      "Str_bis": "Pendlerroute 4",
+      "Shape_Leng": 485.114516487
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.664694428573428,
+          49.30145743387498
+        ],
+        [
+          8.66471080054836,
+          49.30296860002724
+        ],
+        [
+          8.664744501677397,
+          49.305473682489904
+        ],
+        [
+          8.664737488684937,
+          49.305506735553095
+        ],
+        [
+          8.664730580867957,
+          49.30551739276902
+        ],
+        [
+          8.664713200691429,
+          49.30552536692887
+        ],
+        [
+          8.664691140823239,
+          49.305530269153536
+        ],
+        [
+          8.664531665276705,
+          49.305526826234775
+        ],
+        [
+          8.664315331962195,
+          49.30550782273634
+        ],
+        [
+          8.6642758113972,
+          49.30551168109634
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 218,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-008",
+      "Str_Kn": "S",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 328,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Weg westlich der Gleise",
+      "Str_von": "Pendlerroute 4",
+      "Str_bis": "Aussiedlerhöfe Obere Mainzer",
+      "Shape_Leng": 327.808453064
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.664635064161134,
+          49.29850765194025
+        ],
+        [
+          8.664643276531292,
+          49.29851459665798
+        ],
+        [
+          8.664656700700919,
+          49.29857339837324
+        ],
+        [
+          8.66466759957346,
+          49.298973799687
+        ],
+        [
+          8.664694577682418,
+          49.301453703112216
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 219,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-009",
+      "Str_Kn": "K",
+      "Fform_Bst": "Abzweig auf Privatgrundstück",
+      "LS": 0,
+      "Laenge": 4,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Weg westlich der Gleise / Aussiedlerhöfe Obere Mainzer",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 4.20793404125
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.664613629203103,
+          49.298522676435184
+        ],
+        [
+          8.664650045417217,
+          49.29849325726522
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 220,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-010",
+      "Str_Kn": "S",
+      "Fform_Bst": "Wirtschaftsweg",
+      "LS": 0,
+      "Laenge": 137,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Weg nördlich der Aussiedlerhöfe",
+      "Str_von": "Weg westlich der Gleise",
+      "Str_bis": "Weg westlich der Gleise",
+      "Shape_Leng": 137.078730691
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.662766121410025,
+          49.29834388362696
+        ],
+        [
+          8.662815877714138,
+          49.29835879079411
+        ],
+        [
+          8.663788660361378,
+          49.29843313040727
+        ],
+        [
+          8.664604694905195,
+          49.29849989631843
+        ],
+        [
+          8.664632099886243,
+          49.298505858695606
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 221,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-011",
+      "Str_Kn": "K",
+      "Fform_Bst": "Kreuzung von Wirtschaftswegen",
+      "LS": 0,
+      "Laenge": 4,
+      "Innort_au": "a",
+      "Str_kat": "W",
+      "Str_name": "Weg nördlich der Aussiedlerhöfe / Weg westlich der Gleise",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 3.51372549474
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.662742571005362,
+          49.29834170643061
+        ],
+        [
+          8.662790672332262,
+          49.29834476663415
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 222,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-012",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gemeinsamer Geh-/Radweg",
+      "LS": 0,
+      "Laenge": 436,
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "Weg westlich der Gleise",
+      "Str_von": "Weg nödlich der Aussiedlerhöfe",
+      "Str_bis": "Wiesenstraße",
+      "Shape_Leng": 436.315408871
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.663994884481157,
+          49.29477970212797
+        ],
+        [
+          8.66400917344839,
+          49.29486701938674
+        ],
+        [
+          8.66411231169373,
+          49.29538448524221
+        ],
+        [
+          8.66421943596112,
+          49.29597269070918
+        ],
+        [
+          8.66429201704899,
+          49.29638819175186
+        ],
+        [
+          8.664295499827078,
+          49.29649749954482
+        ],
+        [
+          8.664340799444526,
+          49.2966983998394
+        ],
+        [
+          8.664338899797956,
+          49.2967674997516
+        ],
+        [
+          8.664316999645136,
+          49.29681729998854
+        ],
+        [
+          8.663950800263915,
+          49.29713239984953
+        ],
+        [
+          8.663611899531782,
+          49.29738199958898
+        ],
+        [
+          8.662965099475231,
+          49.29791930008332
+        ],
+        [
+          8.662926200405277,
+          49.297940599636526
+        ],
+        [
+          8.662891400288144,
+          49.29797819959323
+        ],
+        [
+          8.662744996991544,
+          49.298313324746346
+        ],
+        [
+          8.662752071917769,
+          49.29833070247852
+        ],
+        [
+          8.662765640386056,
+          49.29834161094218
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 246,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-014",
+      "Str_Kn": "S",
+      "Fform_Bst": "Gemeinsamer Geh-/Radweg",
+      "LS": 0,
+      "Laenge": 271,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Weg durch Industriegebiet Impex",
+      "Str_von": "Wiesenstraße",
+      "Str_bis": "Impexstraße",
+      "Shape_Leng": 271.083186531
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.663991460353428,
+          49.29477255449812
+        ],
+        [
+          8.663946957101132,
+          49.294532659516975
+        ],
+        [
+          8.663829957549002,
+          49.29393858434824
+        ],
+        [
+          8.663781660237728,
+          49.29374637247107
+        ],
+        [
+          8.66364104264379,
+          49.29327032692963
+        ],
+        [
+          8.6635691276034,
+          49.293049818416655
+        ],
+        [
+          8.663444156334501,
+          49.29275356073685
+        ],
+        [
+          8.663327024152276,
+          49.29245367550009
+        ],
+        [
+          8.663322296771993,
+          49.29241943236243
+        ],
+        [
+          8.6633281586482,
+          49.29237816425574
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 268,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "RSV1-015",
+      "Str_Kn": "K",
+      "Fform_Bst": "Einmündung eines Gem. Geh-/Radwegs",
+      "LS": 0,
+      "Laenge": 1,
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Weg westlich der Gleise / Impexstraße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Shape_Leng": 1.20043096431
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.663330747614573,
+          49.29238028026914
+        ],
+        [
+          8.663325485413266,
+          49.29237004551202
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 313,
+      "Route": null,
+      "Route_kat": "RSV",
+      "Massn_Nr": "x",
+      "Str_Kn": "S",
+      "Fform_Bst": null,
+      "LS": 1,
+      "Laenge": 840,
+      "Innort_au": null,
+      "Str_kat": null,
+      "Str_name": null,
+      "Str_von": null,
+      "Str_bis": null,
+      "Shape_Leng": 840.141798703
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.664538130193801,
+          49.29257785453799
+        ],
+        [
+          8.664925200935354,
+          49.29351513656015
+        ],
+        [
+          8.665468737057076,
+          49.29487437791664
+        ],
+        [
+          8.665827412322514,
+          49.29573263984308
+        ],
+        [
+          8.666203273390279,
+          49.29654990517961
+        ],
+        [
+          8.666439229678554,
+          49.29735413530057
+        ],
+        [
+          8.666642397751017,
+          49.298368235548615
+        ],
+        [
+          8.666679581881608,
+          49.29858146451103
+        ],
+        [
+          8.666645394084346,
+          49.29863977694168
+        ],
+        [
+          8.66659701988615,
+          49.29865384616143
+        ],
+        [
+          8.665253107913255,
+          49.298557607632425
+        ],
+        [
+          8.66471089896065,
+          49.2985098590256
+        ],
+        [
+          8.664645429323977,
+          49.29850868318268
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 317,
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Massn_Nr": "x",
+      "Str_Kn": "S",
+      "Fform_Bst": null,
+      "LS": 1,
+      "Laenge": 99,
+      "Innort_au": null,
+      "Str_kat": null,
+      "Str_name": null,
+      "Str_von": null,
+      "Str_bis": null,
+      "Shape_Leng": 98.6832929999
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.66473143157386,
+          49.30553454271238
+        ],
+        [
+          8.6652017539427,
+          49.306367229028545
+        ]
+      ]
+    }
+  }
+]
+}
