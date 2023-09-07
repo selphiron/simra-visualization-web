@@ -114,6 +114,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+    .map-style-container {
+      overflow: auto;
+      height: 56vh;
+    }
     nav.navbar {
         z-index: 500;
     }

@@ -68,14 +68,14 @@ let mapStyles = {
         hasLabelLayer: false,
         url: "http://{s}.tile.osm.org/{z}/{x}/{y}.png",
         attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
-    },
+    }/*,
     WIKIPEDIA: {
         key: "WIKIPEDIA",
         name: "Wikipedia",
         hasLabelLayer: false,
         url: "https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png",
         attribution: "&copy; <a href=\"https://wikimediafoundation.org/wiki/Maps_Terms_of_Use\">Wikimedia</a>" + osmAttribution
-    },
+    }*/,
     STADIA_ALIDADE_SMOOTH: {
         key: "STADIA_ALIDADE_SMOOTH",
         name: "Stadia Light",
