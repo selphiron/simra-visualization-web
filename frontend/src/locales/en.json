@@ -81,7 +81,8 @@
             "polygonStart": "Click to start drawing shape.",
             "polygonContinue": "Click to continue drawing shape.",
             "polygonEnd": "Click first point to close this shape."
-        }
+        },
+        "numberOfRides": "Number of Rides: "
     },
     "popularity": {
         "avoided": "Avoided",

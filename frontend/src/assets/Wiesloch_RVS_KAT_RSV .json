@@ -1,0 +1,919 @@
+{
+"type": "FeatureCollection",
+"name": "Export_Radverkehrsnetz",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "P1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": null,
+      "Massn_Nr": null,
+      "Str_Kn": "S",
+      "Aender_Dat": "26.10.2021",
+      "Aender_Not": "UP nach Bef.: RSV Anbind. Schwetz. (verstehe nicht, wie sie anbinden soll)",
+      "Foto": null,
+      "Fform_Bst": null,
+      "Fform_2": null,
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 23,
+      "Kommune": "Wiesloch",
+      "Ortsteil": null,
+      "Innort_au": null,
+      "Str_kat": null,
+      "Str_name": null,
+      "Str_von": null,
+      "Str_bis": null,
+      "Musterl_1": null,
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": null,
+      "Note_Muste": null,
+      "Zusatzkost": null,
+      "Note_Koste": null,
+      "Alternativ": null,
+      "Prioritaet": null
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.678953699995933,
+          49.29137710109293
+        ],
+        [
+          8.679005899995936,
+          49.29138080109293
+        ],
+        [
+          8.679054299995935,
+          49.291394101092926
+        ],
+        [
+          8.679094799995937,
+          49.291415801092946
+        ],
+        [
+          8.679124199995938,
+          49.29144420109292
+        ],
+        [
+          8.679140399995935,
+          49.291477901092925
+        ],
+        [
+          8.679140599995936,
+          49.29151330109291
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "P1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": null,
+      "Massn_Nr": null,
+      "Str_Kn": "S",
+      "Aender_Dat": "26.10.2021",
+      "Aender_Not": "UP nach Bef.: RSV Anbind. Schwetz. (verstehe nicht, wie sie anbinden soll)",
+      "Foto": null,
+      "Fform_Bst": null,
+      "Fform_2": null,
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 23,
+      "Kommune": "Wiesloch",
+      "Ortsteil": null,
+      "Innort_au": null,
+      "Str_kat": null,
+      "Str_name": null,
+      "Str_von": null,
+      "Str_bis": null,
+      "Musterl_1": null,
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": null,
+      "Note_Muste": null,
+      "Zusatzkost": null,
+      "Note_Koste": null,
+      "Alternativ": null,
+      "Prioritaet": null
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.679140599995936,
+          49.29151330109291
+        ],
+        [
+          8.679120299995935,
+          49.291552801092934
+        ],
+        [
+          8.679080399995936,
+          49.29158540109294
+        ],
+        [
+          8.679025699995936,
+          49.29160700109291
+        ],
+        [
+          8.678962999995933,
+          49.29161500109293
+        ],
+        [
+          8.678899799995934,
+          49.29160840109294
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "P1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": null,
+      "Massn_Nr": null,
+      "Str_Kn": "S",
+      "Aender_Dat": "26.10.2021",
+      "Aender_Not": "UP nach Bef.: RSV Anbind. Schwetz. (verstehe nicht, wie sie anbinden soll)",
+      "Foto": null,
+      "Fform_Bst": null,
+      "Fform_2": null,
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 37,
+      "Kommune": "Wiesloch",
+      "Ortsteil": null,
+      "Innort_au": null,
+      "Str_kat": null,
+      "Str_name": null,
+      "Str_von": null,
+      "Str_bis": null,
+      "Musterl_1": null,
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": null,
+      "Note_Muste": null,
+      "Zusatzkost": null,
+      "Note_Koste": null,
+      "Alternativ": null,
+      "Prioritaet": null
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.678899799995934,
+          49.29160840109294
+        ],
+        [
+          8.678850499995932,
+          49.29159120109292
+        ],
+        [
+          8.678811399995933,
+          49.291565101092935
+        ],
+        [
+          8.67878639999593,
+          49.29153250109293
+        ],
+        [
+          8.678777599995932,
+          49.291496501092944
+        ],
+        [
+          8.67878589999593,
+          49.29146040109294
+        ],
+        [
+          8.678822199995933,
+          49.29141800109294
+        ],
+        [
+          8.678881399995932,
+          49.29138860109294
+        ],
+        [
+          8.678953699995933,
+          49.29137710109293
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "P1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": null,
+      "Massn_Nr": null,
+      "Str_Kn": "S",
+      "Aender_Dat": "26.10.2021",
+      "Aender_Not": "UP nach Bef.: RSV Anbind. Schwetz. (verstehe nicht, wie sie anbinden soll)",
+      "Foto": null,
+      "Fform_Bst": null,
+      "Fform_2": null,
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 66,
+      "Kommune": "Wiesloch",
+      "Ortsteil": null,
+      "Innort_au": null,
+      "Str_kat": null,
+      "Str_name": null,
+      "Str_von": null,
+      "Str_bis": null,
+      "Musterl_1": null,
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": null,
+      "Note_Muste": null,
+      "Zusatzkost": null,
+      "Note_Koste": null,
+      "Alternativ": null,
+      "Prioritaet": null
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.666482815059421,
+          49.29106588702488
+        ],
+        [
+          8.666501060969694,
+          49.29108596141844
+        ],
+        [
+          8.666523133773444,
+          49.291101724543076
+        ],
+        [
+          8.666563138554064,
+          49.291116545772866
+        ],
+        [
+          8.66661140809105,
+          49.29112224939664
+        ],
+        [
+          8.666662153739948,
+          49.2911212034288
+        ],
+        [
+          8.666698079291521,
+          49.291110178349406
+        ],
+        [
+          8.666734985939687,
+          49.29108882229021
+        ],
+        [
+          8.66675247769346,
+          49.29106303823967
+        ],
+        [
+          8.666760589931535,
+          49.291031464058534
+        ],
+        [
+          8.666751791550864,
+          49.29099744914297
+        ],
+        [
+          8.66673509999578,
+          49.290975301092914
+        ],
+        [
+          8.666695596828566,
+          49.290950520010135
+        ],
+        [
+          8.66663898080635,
+          49.29093604836005
+        ],
+        [
+          8.666570099995775,
+          49.29093620109293
+        ],
+        [
+          8.66652045308696,
+          49.29095863344619
+        ],
+        [
+          8.666492300837337,
+          49.29098836123322
+        ],
+        [
+          8.666476295886309,
+          49.29101891898145
+        ],
+        [
+          8.666474879521255,
+          49.29104872392698
+        ],
+        [
+          8.66648213917817,
+          49.29106474239453
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": null,
+      "Route_kat": "RSV",
+      "Reihenf_ID": null,
+      "Massn_Nr": null,
+      "Str_Kn": "S",
+      "Aender_Dat": null,
+      "Aender_Not": null,
+      "Foto": null,
+      "Fform_Bst": null,
+      "Fform_2": null,
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 19,
+      "Kommune": null,
+      "Ortsteil": null,
+      "Innort_au": "x",
+      "Str_kat": null,
+      "Str_name": null,
+      "Str_von": null,
+      "Str_bis": null,
+      "Musterl_1": null,
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": null,
+      "Note_Muste": null,
+      "Zusatzkost": null,
+      "Note_Koste": null,
+      "Alternativ": null,
+      "Prioritaet": null
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.665613695069196,
+          49.3130672321331
+        ],
+        [
+          8.665604399995761,
+          49.31311500109302
+        ],
+        [
+          8.665577365871167,
+          49.31323678941018
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "P1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": "1005,00",
+      "Massn_Nr": "P1-001",
+      "Str_Kn": "S",
+      "Aender_Dat": "22.11.2022",
+      "Aender_Not": "**",
+      "Foto": "f",
+      "Fform_Bst": "Gem. Geh- / Radweg / Baustelle",
+      "Fform_2": "n",
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 356,
+      "Kommune": "Wiesloch",
+      "Ortsteil": "Wiesloch",
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Walldorfer Straße",
+      "Str_von": "Gemarkungsgrenze",
+      "Str_bis": "Kreisverkehr Walldorfer Straße",
+      "Musterl_1": "-",
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": "Bestehenden Geh-/Radweg auf der Südseite wird im Bereich der Rampen voraussichtlich im nächsten Jahr verbreitert und baulich getrennt (Baumaßnahme in Umsetzung).",
+      "Note_Muste": null,
+      "Zusatzkost": 550000,
+      "Note_Koste": "Dahner 10.05.2022",
+      "Alternativ": null,
+      "Prioritaet": "I"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.661997105898315,
+          49.292222416905425
+        ],
+        [
+          8.662288692585282,
+          49.29221080966722
+        ],
+        [
+          8.662845026929794,
+          49.292161157568934
+        ],
+        [
+          8.663281310178913,
+          49.292098137526025
+        ],
+        [
+          8.663986976373796,
+          49.29196254867572
+        ],
+        [
+          8.664432043849406,
+          49.291836508001516
+        ],
+        [
+          8.664834769161015,
+          49.29169271596745
+        ],
+        [
+          8.665007736732324,
+          49.291623445966806
+        ],
+        [
+          8.66543374730762,
+          49.29144403519721
+        ],
+        [
+          8.665803767921592,
+          49.29129161491536
+        ],
+        [
+          8.666059374266768,
+          49.29119476428307
+        ],
+        [
+          8.66628089976592,
+          49.29112490469246
+        ],
+        [
+          8.666483581306617,
+          49.29106489560195
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "RSV1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": null,
+      "Massn_Nr": null,
+      "Str_Kn": "S",
+      "Aender_Dat": null,
+      "Aender_Not": null,
+      "Foto": null,
+      "Fform_Bst": null,
+      "Fform_2": null,
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 9,
+      "Kommune": null,
+      "Ortsteil": null,
+      "Innort_au": null,
+      "Str_kat": null,
+      "Str_name": null,
+      "Str_von": null,
+      "Str_bis": null,
+      "Musterl_1": null,
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": null,
+      "Note_Muste": null,
+      "Zusatzkost": null,
+      "Note_Koste": null,
+      "Alternativ": null,
+      "Prioritaet": null
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.66412017456228,
+          49.292213146809615
+        ],
+        [
+          8.664014693177634,
+          49.29226010989513
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "P1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": "1012,50",
+      "Massn_Nr": "P1-007",
+      "Str_Kn": "K",
+      "Aender_Dat": "26.10.2021",
+      "Aender_Not": null,
+      "Foto": "f",
+      "Fform_Bst": "Kreisverkehr",
+      "Fform_2": "n",
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 0,
+      "Kommune": "Wiesloch",
+      "Ortsteil": "Wiesloch",
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Kreisverkehr Walldorfer Straße",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Musterl_1": "-",
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": "Keine Änderung notwendig",
+      "Note_Muste": null,
+      "Zusatzkost": null,
+      "Note_Koste": null,
+      "Alternativ": null,
+      "Prioritaet": "III"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.666616820137007,
+          49.2910180327577
+        ],
+        [
+          8.666620193146736,
+          49.29102401200757
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "P1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": "1013,00",
+      "Massn_Nr": "P1-008",
+      "Str_Kn": "S",
+      "Aender_Dat": "26.10.2021",
+      "Aender_Not": "**UP nach Bef.: RSV Anbind. Schwetz. (verstehe nicht, wie sie anbinden soll)",
+      "Foto": "f",
+      "Fform_Bst": "Gemeinsamer Geh-/Radweg / \"Rad frei\"",
+      "Fform_2": null,
+      "Fform_Note": "WIE: Kosten? - Aktuell ohne Verbreiterung!",
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 888,
+      "Kommune": "Wiesloch",
+      "Ortsteil": "Wiesloch",
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Walldorfer Straße",
+      "Str_von": "Staatsbahnhofstraße",
+      "Str_bis": "Hoschket-Kreisel",
+      "Musterl_1": "SGReeiRNB",
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": "Mittelmarkierung wird entfernt, Verbreiterung des südlichen Hochbords wird in den nächsten Jahren vorgenommen. Im Bereich von Einmündungen und Zufahrten Furtmarkierungen herstellen. Interimslösung: siehe \"Alternative\".",
+      "Note_Muste": "Optional: Neuen Fußweg WGD im Grünbereich (UP 26.10.)",
+      "Zusatzkost": 95000,
+      "Note_Koste": "Dahner 10.05.2022",
+      "Alternativ": "Als Interimslösung prüfen, ob Rad- und Fußverkehr getrennt geführt werden kann (Nutzung Parallelstraße zw. SWEG & Moschee). Führung durch Markierungen verdeutlichen, Schranken deutlicher kennzeichnen und/oder verschmälern (Unfallgefahr).",
+      "Prioritaet": "II"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.666757102534545,
+          49.2909959889638
+        ],
+        [
+          8.666932704829586,
+          49.29096692422249
+        ],
+        [
+          8.667416599995788,
+          49.29088300109293
+        ],
+        [
+          8.667820499995793,
+          49.29083580109294
+        ],
+        [
+          8.668387599995802,
+          49.29081560109293
+        ],
+        [
+          8.668972020516735,
+          49.29081581520094
+        ],
+        [
+          8.669553285884305,
+          49.290849677610666
+        ],
+        [
+          8.670639399995828,
+          49.29097610109294
+        ],
+        [
+          8.670883699995832,
+          49.29102710109293
+        ],
+        [
+          8.671360425161105,
+          49.29114260754316
+        ],
+        [
+          8.671798099995842,
+          49.29126650109291
+        ],
+        [
+          8.672193349206276,
+          49.291330305264054
+        ],
+        [
+          8.672577334430876,
+          49.29136340354971
+        ],
+        [
+          8.673832024337688,
+          49.291455498378106
+        ],
+        [
+          8.67489002422589,
+          49.29151482762717
+        ],
+        [
+          8.675245908524097,
+          49.29152401599446
+        ],
+        [
+          8.675538399995892,
+          49.291510601092924
+        ],
+        [
+          8.676607618006091,
+          49.29139487702817
+        ],
+        [
+          8.677358584546958,
+          49.2913567277765
+        ],
+        [
+          8.678059851773279,
+          49.29139088237415
+        ],
+        [
+          8.678558099844983,
+          49.291418430894936
+        ],
+        [
+          8.678782037042145,
+          49.29145968938161
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "P1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": "1014,00",
+      "Massn_Nr": "P1-009",
+      "Str_Kn": "K",
+      "Aender_Dat": null,
+      "Aender_Not": null,
+      "Foto": "f",
+      "Fform_Bst": "Keine Querungshilfe",
+      "Fform_2": null,
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 0,
+      "Kommune": "Wiesloch",
+      "Ortsteil": "Wiesloch",
+      "Innort_au": "a",
+      "Str_kat": "G",
+      "Str_name": "Walldorfer Straße / In den Auwiesen",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Musterl_1": "9.4-3",
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": "Einbau einer Querungshilfe zu Moschee und Gewerbegebiet. Bordabsenkung vornehmen.",
+      "Note_Muste": null,
+      "Zusatzkost": 470000,
+      "Note_Koste": "Dahner 10.05.2022",
+      "Alternativ": null,
+      "Prioritaet": "I"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.670910841523838,
+          49.29103779353627
+        ],
+        [
+          8.6709123480953,
+          49.291029402280806
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "P1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": "1015,00",
+      "Massn_Nr": "P1-010",
+      "Str_Kn": "K",
+      "Aender_Dat": null,
+      "Aender_Not": null,
+      "Foto": "f",
+      "Fform_Bst": "Keine Querungshilfe",
+      "Fform_2": null,
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 0,
+      "Kommune": "Wiesloch",
+      "Ortsteil": "Wiesloch",
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Walldorfer Straße / REWE",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Musterl_1": "9.4-3",
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": "Kurz- bis mittelfristig: Bordabsenkung vornehmen. Langfristig: Notwendigkeit des Einbaus einer Querungshilfe prüfen.",
+      "Note_Muste": null,
+      "Zusatzkost": 470000,
+      "Note_Koste": "Dahner 10.05.2022",
+      "Alternativ": null,
+      "Prioritaet": "II"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.67687201376019,
+          49.29138404420379
+        ],
+        [
+          8.676873519331059,
+          49.291375652869036
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "Route": "P1",
+      "Route_kat": "RSV",
+      "Reihenf_ID": "1016,00",
+      "Massn_Nr": "P1-011",
+      "Str_Kn": "K",
+      "Aender_Dat": null,
+      "Aender_Not": null,
+      "Foto": "f",
+      "Fform_Bst": "Kreisverkehr mit Fahrbahnführung",
+      "Fform_2": null,
+      "Fform_Note": null,
+      "Breite": null,
+      "Breite_2": null,
+      "Besonderh": null,
+      "Oberfl_qu": null,
+      "LS": 0,
+      "Einbahn": null,
+      "Dopp_Fuehr": null,
+      "Laenge": 0,
+      "Kommune": "Wiesloch",
+      "Ortsteil": "Wiesloch",
+      "Innort_au": "i",
+      "Str_kat": "G",
+      "Str_name": "Hoschket-Kreisel",
+      "Str_von": "-",
+      "Str_bis": "-",
+      "Musterl_1": "-",
+      "Musterl_2": null,
+      "Must_Kost": null,
+      "Asph_zusae": null,
+      "Must_Besc": "Fahrtrichtung West, westl. Knotenarm: Übergang in Seitenraum durch Bodenmarkierungen (Fahrradpiktogramm) verdeutlichen.",
+      "Note_Muste": null,
+      "Zusatzkost": 1000,
+      "Note_Koste": null,
+      "Alternativ": null,
+      "Prioritaet": "II"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          8.67897648117996,
+          49.29148479104324
+        ],
+        [
+          8.678980344138537,
+          49.29148550274805
+        ]
+      ]
+    }
+  }
+]
+}

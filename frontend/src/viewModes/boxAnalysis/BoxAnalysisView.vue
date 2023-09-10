@@ -1,5 +1,12 @@
 <template>
-    <l-geo-json v-if="polygonResult" :geojson="polygonResult" :options="rideStyle" />
+  <div v-if="polygonResult" >
+    <l-geo-json :geojson="polygonResult" :options="rideStyle" />
+    <div v-if="polygonResult.features" class="leaflet-control bottomcenter">
+      <div class="overlay text" style="text-align: center">
+        {{ $t("boxAnalysis.numberOfRides") + polygonResult.features.length}}
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -179,4 +186,29 @@ export default {
 
 <style lang="scss">
     @import '~leaflet-draw/dist/leaflet.draw.css';
+    .leaflet-control {
+
+      &.bottomcenter {
+        position: absolute;
+        bottom: 0;
+        width: 200px !important;
+        left: calc(50% - 100px) !important;
+        right: calc(50% - 100px) !important;
+      }
+
+      .overlay {
+        padding: 10px;
+        background-color: white;
+        -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1),
+        0 0 0 1px rgba(10, 10, 10, 0.1);
+        box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1),
+        0 0 0 1px rgba(10, 10, 10, 0.1);
+        color: #4a4a4a;
+        position: relative;
+      }
+
+      &.leaflet-control-zoom {
+        display: none;
+      }
+    }
 </style>
