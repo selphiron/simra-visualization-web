@@ -3,7 +3,7 @@
         <h2>{{ $t('statistics.title') }}
             <b-select v-model="selectedRegion" :loading="!dataLoaded" style="display: inline-block; position: absolute; margin-left: 13px; margin-top: -5px;">
                 <option v-for="region in regions" :value="region">
-                    {{ region }}
+                    {{ "Walldorf/Wiesloch" }}
                 </option>
             </b-select>
         </h2>
@@ -161,7 +161,7 @@ export default {
                         let incidentData = [r.i_incident_0, r.i_incident_1, r.i_incident_2, r.i_incident_3, r.i_incident_4, r.i_incident_5, r.i_incident_6, r.i_incident_7, r.i_incident_8];
                         this.incidentTypes = this.processData(4, IncidentUtils.getTypes().map(x => this.$t(x.translationKey)), incidentData);
 
-                        let participantData = [/*r.i_itype_0,*/ r.i_itype_1, r.i_itype_2, r.i_itype_3, r.i_itype_4, r.i_itype_5, r.i_itype_6, r.i_itype_7, r.i_itype_8, r.i_itype_9, r.i_itype_10];
+                        let participantData = [r.i_itype_0, r.i_itype_1, r.i_itype_2, r.i_itype_3, r.i_itype_4, r.i_itype_5, r.i_itype_6, r.i_itype_7, r.i_itype_8, r.i_itype_9, r.i_itype_10];
                         this.participantTypes = this.processData(4, IncidentUtils.getParticipants().map(x => this.$t(x.translationKey)), participantData);
 
                         let bikeData = [r.i_biketype_0, r.i_biketype_1, r.i_biketype_2, r.i_biketype_3, r.i_biketype_4, r.i_biketype_5, r.i_biketype_6, r.i_biketype_7, r.i_biketype_8];
@@ -194,6 +194,9 @@ export default {
             };
         },
         processData(showElementCount, labels, data) {
+          console.log("showElementCount:",showElementCount)
+          console.log("labels:",labels)
+          console.log("data:",data)
             let rData = [];
             let rLabels = [];
 

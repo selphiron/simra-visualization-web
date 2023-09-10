@@ -62,9 +62,15 @@
             </div>
             <div class="graybg">
                 <div class="symbol-container">
-                    <div class="symbol symbol-box blue1 one-third"/>
-                    <div class="symbol symbol-box blue2 two-thirds"/>
-                    <div class="symbol symbol-box blue3"/>
+                  <div class="symbol symbol-box blue1 one-third">
+                    <div class="symbol-text-1">0</div>
+                  </div>
+                    <div class="symbol symbol-box blue2 two-thirds">
+                      <div class="symbol-text-2">250</div>
+                    </div>
+                  <div class="symbol symbol-box blue3">
+                    <div class="symbol-text-3">500</div>
+                  </div>
                 </div>
             </div>
 
@@ -186,6 +192,7 @@
             </div>
             <div class="graybg">
                 <div class="symbol symbol-box gradient2"/>
+              <div>21 km/h</div>
             </div>
 
             <div class="graybg">
@@ -207,12 +214,20 @@
             </div>
 
             <div class="symbol-container graybg">
-                <div class="symbol symbol-circle gradient1"/>
-                <div class="symbol symbol-circle gradient2"/>
-                <div class="symbol symbol-circle gradient3"/>
-                <div class="symbol symbol-circle gradient4"/>
-                <div class="symbol symbol-circle gradient5"/>
-                <div class="symbol symbol-circle gradient6"/>
+              <div class="symbol symbol-box gradient1">
+                <div class="symbol-text-3">0s</div>
+              </div>
+              <div class="symbol symbol-box gradient2">
+              </div>
+              <div class="symbol symbol-box gradient3">
+              </div>
+              <div class="symbol symbol-box gradient4">
+              </div>
+              <div class="symbol symbol-box gradient5">
+              </div>
+              <div class="symbol symbol-box gradient6">
+                <div class="symbol-text-3">5min</div>
+              </div>
             </div>
         </template>
 
@@ -548,9 +563,34 @@ export default {
     }
 }
 
+.symbol-text-1 {
+  text-align: center;
+  font-size: 75%;
+  position: absolute;
+  width: 100%;
+  top: 5px;
+}
+
+.symbol-text-2 {
+  text-align: center;
+  font-size: 75%;
+  position: absolute;
+  width: 100%;
+  top: 9px;
+}
+
+.symbol-text-3 {
+  text-align: center;
+  font-size: 75%;
+  position: absolute;
+  width: 100%;
+  top: 13px;
+}
+
 .symbol {
     width: 15px;
     height: 15px;
+    position: relative;
 
     & + .symbol {
         margin-left: 4px;
