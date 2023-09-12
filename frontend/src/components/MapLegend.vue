@@ -63,7 +63,7 @@
             <div class="graybg">
                 <div class="symbol-container">
                   <div class="symbol symbol-box blue1 one-third">
-                    <div class="symbol-text-1">0</div>
+                    <div class="symbol-text-1">1</div>
                   </div>
                     <div class="symbol symbol-box blue2 two-thirds">
                       <div class="symbol-text-2">250</div>
@@ -218,15 +218,19 @@
                 <div class="symbol-text-3">0s</div>
               </div>
               <div class="symbol symbol-box gradient2">
+                <div class="symbol-text-3">20s</div>
               </div>
               <div class="symbol symbol-box gradient3">
+                <div class="symbol-text-3">40s</div>
               </div>
               <div class="symbol symbol-box gradient4">
+                <div class="symbol-text-3">60s</div>
               </div>
               <div class="symbol symbol-box gradient5">
+			    <div class="symbol-text-3">80s</div>
               </div>
               <div class="symbol symbol-box gradient6">
-                <div class="symbol-text-3">5min</div>
+                <div class="symbol-text-3">100s</div>
               </div>
             </div>
         </template>
