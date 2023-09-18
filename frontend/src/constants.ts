@@ -17,6 +17,22 @@ let subViewModes = {
     RIDES_DENSITY_RUSHHOURMORNING: 2,
     RIDES_DENSITY_RUSHHOUREVENING: 3,
     RIDES_DENSITY_WEEKEND: 4,
+    RIDES_DENSITY_ALL_1: 5,
+    RIDES_DENSITY_ALL_5: 6,
+    RIDES_DENSITY_ALL_10: 7,
+    RIDES_DENSITY_ALL_20: 8,
+    RIDES_DENSITY_RUSHHOURMORNING_1: 9,
+    RIDES_DENSITY_RUSHHOURMORNING_5: 10,
+    RIDES_DENSITY_RUSHHOURMORNING_10: 11,
+    RIDES_DENSITY_RUSHHOURMORNING_20: 12,
+    RIDES_DENSITY_RUSHHOUREVENING_1: 13,
+    RIDES_DENSITY_RUSHHOUREVENING_5: 14,
+    RIDES_DENSITY_RUSHHOUREVENING_10: 15,
+    RIDES_DENSITY_RUSHHOUREVENING_20: 16,
+    RIDES_DENSITY_WEEKEND_1: 17,
+    RIDES_DENSITY_WEEKEND_5: 18,
+    RIDES_DENSITY_WEEKEND_10: 19,
+    RIDES_DENSITY_WEEKEND_20: 20,
     RIDES_ORIGINAL: 1,
     SURFACE_QUALITY_AGGREGATED: 0,
     SURFACE_QUALITY_SINGLE: 1,
@@ -33,6 +49,13 @@ let subViewModes = {
     POPULARITY_W_INCIDENTS_AVOIDED: 19,
     POPULARITY_W_INCIDENTS_CHOSEN: 29,
     POPULARITY_W_INCIDENTS_SCORE: 39,
+}
+
+let rideThreshold = {
+    ONE: 1,
+    FIVE: 5,
+    TEN: 10,
+    TWENTY: 20,
 }
 
 let osmAttribution = " &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors";
@@ -102,6 +125,7 @@ let mapStyles = {
 export default {
     viewModes: viewModes,
     subViewModes: subViewModes,
+    rideThreshold: rideThreshold,
     viewModeHasLegend(viewMode: number) {
         return viewMode === viewModes.RIDES || viewMode === viewModes.INCIDENTS || viewMode === viewModes.SURFACE_QUALITY || viewMode === viewModes.RELATIVE_SPEED || viewMode === viewModes.STOP_TIMES || viewMode === viewModes.POPULARITY;
     },

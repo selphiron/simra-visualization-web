@@ -52,6 +52,20 @@
                         {{ $t("ride.weekend") }}
                     </b-radio>
                 </div>
+                <b-field label="Anzahl der Fahrten">
+<!--                    <b-slider v-model="filterRideHours" @change="ridesChanged"
+                              :min="1" :max="20" :step="5">
+                        <template v-for="h in [1, 5, 10, 15, 20]">
+                            <b-slider-tick :value="h" :key="h">{{ h }}</b-slider-tick>
+                        </template>
+                    </b-slider>-->
+                    <b-slider :min="0" :max="3" v-model="filterRideHours" @change="minRidesChanged" label="Anzahl der Fahrten" :tooltip="false">
+                        <b-slider-tick :value="0">1</b-slider-tick>
+                        <b-slider-tick :value="1">5</b-slider-tick>
+                        <b-slider-tick :value="2">10</b-slider-tick>
+                        <b-slider-tick :value="3">20</b-slider-tick>
+                    </b-slider>
+                </b-field>
             </SidebarEntry>
 
             <!-- Incidents -->
@@ -218,7 +232,7 @@ import Config from "@/constants";
 export default {
     name: "Sidebar",
     components: { SidebarEntry },
-    props: ["value", "subViewMode"],
+    props: ["value", "subViewMode", "rideThreshold"],
     data() {
         return {
             config: Config,
@@ -235,6 +249,22 @@ export default {
             }
 
             this.$emit("update:sub-view-mode", defaultSubViewMode);
+        },
+        minRidesChanged(value) {
+            switch (value) {
+                case 0:
+                    this.computedSubViewMode = this.config.rideThreshold.ONE
+                    break;
+                case 1:
+                    this.computedSubViewMode = this.config.rideThreshold.FIVE
+                    break;
+                case 2:
+                    this.computedSubViewMode = this.config.rideThreshold.TEN
+                    break;
+                case 3:
+                    this.computedSubViewMode = this.config.rideThreshold.TWENTY
+                    break;
+            }
         }
     },
     watch: {
@@ -243,6 +273,14 @@ export default {
         }
     },
     computed: {
+        computedRideThreshold: {
+            get() {
+                return this.rideThreshold;
+            },
+            set(value) {
+                this.$emit("update:ride-threshold", value);
+            }
+        },
         computedSubViewMode: {
             get() {
                 return this.subViewMode;

@@ -152,6 +152,7 @@
                 v-if="viewMode === config.viewModes.RIDES && showLayer"
                 ref="rideView"
                 :sub-view-mode="subViewMode"
+                :ride-threshold="rideThreshold"
                 @on-progress="updateLoadingView"
                 @update:sub-view-mode="subViewMode = $event"
             />
@@ -293,6 +294,8 @@ export default {
       viewMode: parseInt(this.$route.query.m) || Config.viewModes.RIDES,
       subViewMode:
           parseInt(this.$route.query.sm) || Config.subViewModes.DEFAULT,
+      rideThreshold:
+          parseInt(this.$route.query.rt) || Config.rideThreshold.ONE,
       loadingProgress: null,
       regions: null,
 
