@@ -419,7 +419,8 @@ export default {
               zoom: this.zoom,
               style: this.mapStyle.key,
               viewMode: this.viewMode,
-              subViewMode: this.subViewMode
+              subViewMode: this.subViewMode,
+              rideThreshold: this.rideThreshold
             }
           })
           .catch(() => {
@@ -509,6 +510,9 @@ export default {
       this.updateLoadingView(1, 1);
     },
     subViewMode: function (newValue, oldValue) {
+      this.updateUrlQuery();
+    },
+    rideThreshold: function (newValue, oldValue) {
       this.updateUrlQuery();
     }
   }
