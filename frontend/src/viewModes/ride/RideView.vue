@@ -17,8 +17,8 @@
 && rideThreshold === config.rideThreshold.FIVE" :url="TILE_URL + '/tiles/rides-density_all_5/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_ALL_10
 && rideThreshold === config.rideThreshold.TEN" :url="TILE_URL + '/tiles/rides-density_all_10/{z}/{x}/{y}.png'"/>
-        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_ALL_20
-&& rideThreshold === config.rideThreshold.TWENTY" :url="TILE_URL + '/tiles/rides-density_all_20/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_ALL_25
+&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_all_20/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING
 && rideThreshold === config.rideThreshold.ONE" :url="TILE_URL + '/tiles/rides-density_rushhourmorning/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING_5
@@ -26,23 +26,23 @@
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING_10
 && rideThreshold === config.rideThreshold.TEN" :url="TILE_URL + '/tiles/rides-density_rushhourmorning_10/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING_20
-&& rideThreshold === config.rideThreshold.TWENTY" :url="TILE_URL + '/tiles/rides-density_rushhourmorning_20/{z}/{x}/{y}.png'"/>
+&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_rushhourmorning_20/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING
 && rideThreshold === config.rideThreshold.ONE" :url="TILE_URL + '/tiles/rides-density_rushhourevening/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING_5
 && rideThreshold === config.rideThreshold.FIVE" :url="TILE_URL + '/tiles/rides-density_rushhourevening_5/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING_10
 && rideThreshold === config.rideThreshold.TEN" :url="TILE_URL + '/tiles/rides-density_rushhourevening_10/{z}/{x}/{y}.png'"/>
-        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING_20
-&& rideThreshold === config.rideThreshold.TWENTY" :url="TILE_URL + '/tiles/rides-density_rushhourevening_20/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING_25
+&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_rushhourevening_20/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND
 && rideThreshold === config.rideThreshold.ONE" :url="TILE_URL + '/tiles/rides-density_weekend/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND_5
 && rideThreshold === config.rideThreshold.FIVE" :url="TILE_URL + '/tiles/rides-density_weekend_5/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND_10
 && rideThreshold === config.rideThreshold.TEN" :url="TILE_URL + '/tiles/rides-density_weekend_10/{z}/{x}/{y}.png'"/>
-        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND_20
-&& rideThreshold === config.rideThreshold.TWENTY" :url="TILE_URL + '/tiles/rides-density_weekend_20/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND_25
+&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_weekend_20/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_ORIGINAL" :url="TILE_URL + '/tiles/rides-original/{z}/{x}/{y}.png'"/>
     </div>
 </template>

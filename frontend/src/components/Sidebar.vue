@@ -59,11 +59,15 @@
                             <b-slider-tick :value="h" :key="h">{{ h }}</b-slider-tick>
                         </template>
                     </b-slider>-->
-                    <b-slider :min="0" :max="3" v-model="filterRideHours" @change="minRidesChanged" label="Anzahl der Fahrten" :tooltip="false">
+                    <b-slider :min="0" :max="6" v-model="rideThreshold" @change="minRidesChanged" label="Anzahl der Fahrten" :tooltip="false">
                         <b-slider-tick :value="0">1</b-slider-tick>
                         <b-slider-tick :value="1">5</b-slider-tick>
                         <b-slider-tick :value="2">10</b-slider-tick>
-                        <b-slider-tick :value="3">20</b-slider-tick>
+                        <b-slider-tick :value="3">25</b-slider-tick>
+                        <b-slider-tick :value="4">50</b-slider-tick>
+                        <b-slider-tick :value="5">100</b-slider-tick>
+                        <b-slider-tick :value="6">200</b-slider-tick>
+
                     </b-slider>
                 </b-field>
             </SidebarEntry>
@@ -262,8 +266,18 @@ export default {
                     this.computedSubViewMode = this.config.rideThreshold.TEN
                     break;
                 case 3:
-                    this.computedSubViewMode = this.config.rideThreshold.TWENTY
+                    this.computedSubViewMode = this.config.rideThreshold.TWENTYFIVE
                     break;
+                case 4:
+                    this.computedSubViewMode = this.config.rideThreshold.FIFTY
+                    break;
+                case 5:
+                    this.computedSubViewMode = this.config.rideThreshold.ONEHUNDRED
+                    break;
+                case 6:
+                    this.computedSubViewMode = this.config.rideThreshold.TWOHUNDRED
+                    break;
+
             }
         }
     },
