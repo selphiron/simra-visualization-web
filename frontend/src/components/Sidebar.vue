@@ -257,25 +257,25 @@ export default {
         minRidesChanged(value) {
             switch (value) {
                 case 0:
-                    this.computedSubViewMode = this.config.rideThreshold.ONE
+                    this.computedRideThreshold = this.config.rideThreshold.ONE
                     break;
                 case 1:
-                    this.computedSubViewMode = this.config.rideThreshold.FIVE
+                    this.computedRideThreshold = this.config.rideThreshold.FIVE
                     break;
                 case 2:
-                    this.computedSubViewMode = this.config.rideThreshold.TEN
+                    this.computedRideThreshold = this.config.rideThreshold.TEN
                     break;
                 case 3:
-                    this.computedSubViewMode = this.config.rideThreshold.TWENTYFIVE
+                    this.computedRideThreshold = this.config.rideThreshold.TWENTYFIVE
                     break;
                 case 4:
-                    this.computedSubViewMode = this.config.rideThreshold.FIFTY
+                    this.computedRideThreshold = this.config.rideThreshold.FIFTY
                     break;
                 case 5:
-                    this.computedSubViewMode = this.config.rideThreshold.ONEHUNDRED
+                    this.computedRideThreshold = this.config.rideThreshold.ONEHUNDRED
                     break;
                 case 6:
-                    this.computedSubViewMode = this.config.rideThreshold.TWOHUNDRED
+                    this.computedRideThreshold = this.config.rideThreshold.TWOHUNDRED
                     break;
 
             }
