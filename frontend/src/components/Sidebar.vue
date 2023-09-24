@@ -289,17 +289,21 @@ export default {
     computed: {
         computedRideThreshold: {
             get() {
+                console.log("get rideThreshold:",this.rideThreshold)
                 return this.rideThreshold;
             },
             set(value) {
+                console.log("set rideThreshold:",value)
                 this.$emit("update:ride-threshold", value);
             }
         },
         computedSubViewMode: {
             get() {
+                console.log("get subviewMode:",this.subViewMode)
                 return this.subViewMode;
             },
             set(value) {
+                console.log("set subviewMode:",value)
                 this.$emit("update:sub-view-mode", value);
             }
         },
