@@ -72,6 +72,18 @@ export default {
             return process.env.VUE_APP_TILE_URL;
         },
     },
+    watch: {
+        subViewMode: function (newValue, oldValue) {
+            console.log("subViewMode oldValue:", oldValue)
+            console.log("subViewMode newValue:", newValue)
+            this.updateUrlQuery();
+        },
+        rideThreshold: function (newValue, oldValue) {
+            console.log("rideThreshold oldValue:", oldValue)
+            console.log("rideThreshold newValue:", newValue)
+            this.updateUrlQuery();
+        }
+    }
 };
 </script>
 
