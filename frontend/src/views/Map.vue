@@ -155,6 +155,7 @@
                 :ride-threshold="rideThreshold"
                 @on-progress="updateLoadingView"
                 @update:sub-view-mode="subViewMode = $event"
+                @update:ride-threshold="rideThreshold = $event"
             />
           </div>
 
@@ -410,6 +411,8 @@ export default {
       this.showLayer = checked;
     },
     updateUrlQuery() {
+        console.log("this.subViewMode",this.subViewMode)
+        console.log("this.rideThreshold",this.rideThreshold)
       this.$router
           .replace({
             name: "mapQuery",
@@ -513,6 +516,8 @@ export default {
       this.updateUrlQuery();
     },
     rideThreshold: function (newValue, oldValue) {
+        console.log("oldValue:", oldValue)
+        console.log("newValue:", newValue)
       this.updateUrlQuery();
     }
   }
