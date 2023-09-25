@@ -18,15 +18,27 @@
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_ALL_10
 && rideThreshold === config.rideThreshold.TEN" :url="TILE_URL + '/tiles/rides-density_all_10/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_ALL_25
-&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_all_20/{z}/{x}/{y}.png'"/>
+&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_all_25/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_ALL_50
+&& rideThreshold === config.rideThreshold.FIFTY" :url="TILE_URL + '/tiles/rides-density_all_50/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_ALL_100
+&& rideThreshold === config.rideThreshold.ONEHUNDRED" :url="TILE_URL + '/tiles/rides-density_all_100/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_ALL_200
+&& rideThreshold === config.rideThreshold.TWOHUNDRED" :url="TILE_URL + '/tiles/rides-density_all_200/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING
 && rideThreshold === config.rideThreshold.ONE" :url="TILE_URL + '/tiles/rides-density_rushhourmorning/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING_5
 && rideThreshold === config.rideThreshold.FIVE" :url="TILE_URL + '/tiles/rides-density_rushhourmorning_5/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING_10
 && rideThreshold === config.rideThreshold.TEN" :url="TILE_URL + '/tiles/rides-density_rushhourmorning_10/{z}/{x}/{y}.png'"/>
-        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING_20
-&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_rushhourmorning_20/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING_25
+&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_rushhourmorning_25/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING_50
+&& rideThreshold === config.rideThreshold.FIFTY" :url="TILE_URL + '/tiles/rides-density_rushhourmorning_50/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING_100
+&& rideThreshold === config.rideThreshold.ONEHUNDRED" :url="TILE_URL + '/tiles/rides-density_rushhourmorning_100/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOURMORNING_200
+&& rideThreshold === config.rideThreshold.TWOHUNDRED" :url="TILE_URL + '/tiles/rides-density_rushhourmorning_200/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING
 && rideThreshold === config.rideThreshold.ONE" :url="TILE_URL + '/tiles/rides-density_rushhourevening/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING_5
@@ -34,7 +46,13 @@
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING_10
 && rideThreshold === config.rideThreshold.TEN" :url="TILE_URL + '/tiles/rides-density_rushhourevening_10/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING_25
-&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_rushhourevening_20/{z}/{x}/{y}.png'"/>
+&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_rushhourevening_25/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING_50
+&& rideThreshold === config.rideThreshold.FIFTY" :url="TILE_URL + '/tiles/rides-density_rushhourevening_50/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING_100
+&& rideThreshold === config.rideThreshold.ONEHUNDRED" :url="TILE_URL + '/tiles/rides-density_rushhourevening_100/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_RUSHHOUREVENING_200
+&& rideThreshold === config.rideThreshold.TWOHUNDRED" :url="TILE_URL + '/tiles/rides-density_rushhourevening_200/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND
 && rideThreshold === config.rideThreshold.ONE" :url="TILE_URL + '/tiles/rides-density_weekend/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND_5
@@ -42,7 +60,13 @@
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND_10
 && rideThreshold === config.rideThreshold.TEN" :url="TILE_URL + '/tiles/rides-density_weekend_10/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND_25
-&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_weekend_20/{z}/{x}/{y}.png'"/>
+&& rideThreshold === config.rideThreshold.TWENTYFIVE" :url="TILE_URL + '/tiles/rides-density_weekend_25/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND_50
+&& rideThreshold === config.rideThreshold.FIFTY" :url="TILE_URL + '/tiles/rides-density_weekend_50/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND_100
+&& rideThreshold === config.rideThreshold.ONEHUNDRED" :url="TILE_URL + '/tiles/rides-density_weekend_100/{z}/{x}/{y}.png'"/>
+        <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_DENSITY_WEEKEND_200
+&& rideThreshold === config.rideThreshold.TWOHUNDRED" :url="TILE_URL + '/tiles/rides-density_weekend_200/{z}/{x}/{y}.png'"/>
         <l-tile-layer v-if="subViewMode === config.subViewModes.RIDES_ORIGINAL" :url="TILE_URL + '/tiles/rides-original/{z}/{x}/{y}.png'"/>
     </div>
 </template>

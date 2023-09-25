@@ -284,6 +284,8 @@ export default {
                     this.computedRideThreshold = this.config.rideThreshold.TWOHUNDRED
                     this.subViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_200
                     break;
+                default:
+                    break;
 
             }
         }

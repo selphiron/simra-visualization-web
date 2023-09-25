@@ -16,8 +16,10 @@
           v-model.sync="viewMode"
           ref="sidebar"
           :sub-view-mode="subViewMode"
+          :ride-threshold="rideThreshold"
           @size-changed="mapObject.invalidateSize()"
           @update:sub-view-mode="subViewMode = $event"
+          @update:ride-threshold="rideThreshold = $event"
           @update:incidents-visible="switchVisibilityMode"
       />
 
@@ -464,6 +466,7 @@ export default {
      * overlay is currently active or not.
      */
     switchPopularityView(newSubViewMode) {
+        console.log("switchPopularityView:",newSubViewMode)
       if (this.incidentsVisible) {
         switch (newSubViewMode) {
           case 0: // Popularity combined
