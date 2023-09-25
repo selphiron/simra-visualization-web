@@ -13,11 +13,7 @@
                 <div class="field">
                     <b-radio
                         v-model="computedSubViewMode"
-                        :native-value="
-                            subViewMode === config.subViewModes.RIDES_ORIGINAL
-                                ? config.subViewModes.RIDES_ORIGINAL
-                                : config.subViewModes.RIDES_DENSITY_ALL
-                        "
+                        :native-value="determineNativeValue('all')"
                     >
                         {{ $t("ride.all") }}
                     </b-radio>
@@ -245,6 +241,12 @@ export default {
         };
     },
     methods: {
+        determineNativeValue(name) {
+            console.log("determineNativeValue name:",name)
+            return this.subViewMode === config.subViewModes.RIDES_ORIGINAL
+                ? config.subViewModes.RIDES_ORIGINAL
+                : config.subViewModes.RIDES_DENSITY_ALL
+        },
         switchToView(viewId, defaultSubViewMode = Config.subViewModes.DEFAULT) {
             if (this.value === viewId) {
                 this.$emit("input", Config.viewModes.NONE);
