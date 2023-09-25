@@ -55,7 +55,7 @@
                             <b-slider-tick :value="h" :key="h">{{ h }}</b-slider-tick>
                         </template>
                     </b-slider>-->
-                    <b-slider :min="0" :max="6" v-model="rideThreshold" @change="minRidesChanged" label="Anzahl der Fahrten" :tooltip="false">
+                    <b-slider :min="0" :max="6" v-model="sliderTick" @change="minRidesChanged" label="Anzahl der Fahrten" :tooltip="false">
                         <b-slider-tick :value="0">1</b-slider-tick>
                         <b-slider-tick :value="1">5</b-slider-tick>
                         <b-slider-tick :value="2">10</b-slider-tick>
@@ -237,7 +237,8 @@ export default {
         return {
             config: Config,
             small: false,
-            checked: false
+            checked: false,
+            sliderTick: 0
         };
     },
     methods: {
@@ -300,10 +301,6 @@ export default {
             }
 
             return nativeValue;
-            /*return this.subViewMode === this.config.subViewModes.RIDES_ORIGINAL
-                ? this.config.subViewModes.RIDES_ORIGINAL
-                : this.config.subViewModes.RIDES_DENSITY_ALL*/
-            // TODO: do for all subViewModes and rideThresholds
         },
         switchToView(viewId, defaultSubViewMode = Config.subViewModes.DEFAULT) {
             if (this.value === viewId) {

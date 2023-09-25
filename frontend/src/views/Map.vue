@@ -295,7 +295,7 @@ export default {
       config: Config,
       viewMode: parseInt(this.$route.query.m) || Config.viewModes.RIDES,
       subViewMode:
-          parseInt(this.$route.query.sm) || Config.subViewModes.DEFAULT,
+          parseInt(this.$route.query.sm) || Config.subViewModes.RIDES_DENSITY_ALL,
       rideThreshold:
           parseInt(this.$route.query.rt) || Config.rideThreshold.ONE,
       loadingProgress: null,
