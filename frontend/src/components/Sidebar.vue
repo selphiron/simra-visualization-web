@@ -319,42 +319,49 @@ export default {
                 case 0:
                     this.computedRideThreshold = this.config.rideThreshold.ONE
                     this.rideThreshold = this.config.rideThreshold.ONE
+                    this.computedSubViewMode = this.config.subViewModes.RIDES_DENSITY_ALL
                     this.subViewMode = this.config.subViewModes.RIDES_DENSITY_ALL
                     console.log("set slider to ONE (0)")
                     break;
                 case 1:
                     this.computedRideThreshold = this.config.rideThreshold.FIVE
                     this.rideThreshold = this.config.rideThreshold.FIVE
+                    this.computedSubViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_5
                     this.subViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_5
                     console.log("set slider to FIVE (1)")
                     break;
                 case 2:
                     this.computedRideThreshold = this.config.rideThreshold.TEN
                     this.rideThreshold = this.config.rideThreshold.TEN
+                    this.computedSubViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_10
                     this.subViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_10
                     console.log("set slider to TEN (2)")
                     break;
                 case 3:
                     this.computedRideThreshold = this.config.rideThreshold.TWENTYFIVE
                     this.rideThreshold = this.config.rideThreshold.TWENTYFIVE
+                    this.computedSubViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_25
                     this.subViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_25
                     console.log("set slider to TWENTYFIVE (3)")
                     break;
                 case 4:
                     this.computedRideThreshold = this.config.rideThreshold.FIFTY
                     this.rideThreshold = this.config.rideThreshold.FIFTY
+                    this.computedSubViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_50
                     this.subViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_50
                     console.log("set slider to FIFTY (4)")
                     break;
                 case 5:
                     this.computedRideThreshold = this.config.rideThreshold.ONEHUNDRED
                     this.rideThreshold = this.config.rideThreshold.ONEHUNDRED
+                    this.computedSubViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_100
                     this.subViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_100
                     console.log("set slider to ONEHUNDRED (5)")
                     break;
                 case 6:
                     this.computedRideThreshold = this.config.rideThreshold.TWOHUNDRED
                     this.rideThreshold = this.config.rideThreshold.TWOHUNDRED
+                    this.computedSubViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_200
                     this.subViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_200
                     console.log("set slider to TWOHUNDRED (6)")
                     break;
