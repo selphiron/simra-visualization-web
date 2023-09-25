@@ -157,7 +157,6 @@
                 :ride-threshold="rideThreshold"
                 @on-progress="updateLoadingView"
                 @update:sub-view-mode="subViewMode = $event"
-                @update:ride-threshold="rideThreshold = $event"
             />
           </div>
 
