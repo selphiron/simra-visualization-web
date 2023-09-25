@@ -242,10 +242,68 @@ export default {
     },
     methods: {
         determineNativeValue(name) {
-            console.log("determineNativeValue name:",name)
-            return this.subViewMode === config.subViewModes.RIDES_ORIGINAL
-                ? config.subViewModes.RIDES_ORIGINAL
-                : config.subViewModes.RIDES_DENSITY_ALL
+            let nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL;
+            if (name === "all") {
+                console.log("determineNativeValue name:",name)
+                switch (this.subViewMode) {
+                    case this.config.subViewModes.RIDES_ORIGINAL:
+                        nativeValue = this.config.subViewModes.RIDES_ORIGINAL;
+                        console.log("set nativeValue to RIDES_ORIGINAL:", nativeValue);
+                        break;
+                    case this.config.subViewModes.RIDES_DENSITY_ALL:
+                        nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL;
+                        console.log("set nativeValue to RIDES_DENSITY_ALL:", nativeValue);
+                        break;
+                    case this.config.subViewModes.RIDES_DENSITY_ALL_5:
+                        nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL_5;
+                        console.log("set nativeValue to RIDES_DENSITY_ALL_5:", nativeValue);
+                        break;
+                    case this.config.subViewModes.RIDES_DENSITY_ALL_10:
+                        nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL_10;
+                        console.log("set nativeValue to RIDES_DENSITY_ALL_10:", nativeValue);
+                        break;
+                    case this.config.subViewModes.RIDES_DENSITY_ALL_25:
+                        nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL_25;
+                        console.log("set nativeValue to RIDES_DENSITY_ALL_25:", nativeValue);
+                        break;
+                    case this.config.subViewModes.RIDES_DENSITY_ALL_50:
+                        nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL_50;
+                        console.log("set nativeValue to RIDES_DENSITY_ALL_50:", nativeValue);
+                        break;
+                    case this.config.subViewModes.RIDES_DENSITY_ALL_100:
+                        nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL_100;
+                        console.log("set nativeValue to RIDES_DENSITY_ALL_100:", nativeValue);
+                        break;
+                    case this.config.subViewModes.RIDES_DENSITY_ALL_200:
+                        nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL_200;
+                        console.log("set nativeValue to RIDES_DENSITY_ALL_200:", nativeValue);
+                        break;
+                    default:
+                        nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL;
+                        console.warn("this.subViewMode is unexpected:", this.subViewMode);
+                        break;
+                }
+                /*if (this.subViewMode === this.config.subViewModes.RIDES_DENSITY_ALL) {
+                    nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL;
+                    console.log("set nativeValue to RIDES_DENSITY_ALL:", nativeValue);
+                }
+
+                if (this.subViewMode === this.config.subViewModes.RIDES_ORIGINAL) {
+                    nativeValue = this.config.subViewModes.RIDES_ORIGINAL;
+                    console.log("set nativeValue to RIDES_ORIGINAL:", nativeValue);
+                } else {
+                    nativeValue = this.config.subViewModes.RIDES_DENSITY_ALL;
+                    console.log("set nativeValue to RIDES_DENSITY_ALL:", nativeValue);
+                }*/
+            } else {
+                console.log("determineNativeValue name is: ",name)
+            }
+
+            return nativeValue;
+            /*return this.subViewMode === this.config.subViewModes.RIDES_ORIGINAL
+                ? this.config.subViewModes.RIDES_ORIGINAL
+                : this.config.subViewModes.RIDES_DENSITY_ALL*/
+            // TODO: do for all subViewModes and rideThresholds
         },
         switchToView(viewId, defaultSubViewMode = Config.subViewModes.DEFAULT) {
             if (this.value === viewId) {
@@ -260,7 +318,7 @@ export default {
             switch (value) {
                 case 0:
                     this.computedRideThreshold = this.config.rideThreshold.ONE
-                    this.subViewMode = this.config.subViewModes.RIDES_DENSITY_ALL_1
+                    this.subViewMode = this.config.subViewModes.RIDES_DENSITY_ALL
                     break;
                 case 1:
                     this.computedRideThreshold = this.config.rideThreshold.FIVE
