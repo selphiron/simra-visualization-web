@@ -164,16 +164,16 @@ export default {
                         this.statistics = r;
 
                         let incidentData = [r.i_incident_0, r.i_incident_1, r.i_incident_2, r.i_incident_3, r.i_incident_4, r.i_incident_5, r.i_incident_6, r.i_incident_7, r.i_incident_8];
-                        this.incidentTypes = this.processData(4, IncidentUtils.getTypes().map(x => this.$t(x.translationKey)), incidentData);
+                        this.incidentTypes = this.processData(4, IncidentUtils.getTypes().map(x => this.$t(x.translationKey)), incidentData, "bottom", false);
 
                         let scaryIncidentData = [r.i_scary_0, r.i_scary_1, r.i_scary_2, r.i_scary_3, r.i_scary_4, r.i_scary_5, r.i_scary_6, r.i_scary_7, r.i_scary_8];
-                        this.scaryIncidentTypes = this.processData(4, IncidentUtils.getTypes().map(x => this.$t(x.translationKey)), scaryIncidentData);
+                        this.scaryIncidentTypes = this.processData(4, IncidentUtils.getTypes().map(x => this.$t(x.translationKey)), scaryIncidentData, "bottom", false);
 
                         let participantData = [r.i_itype_0, r.i_itype_1, r.i_itype_2, r.i_itype_3, r.i_itype_4, r.i_itype_5, r.i_itype_6, r.i_itype_7, r.i_itype_8, r.i_itype_9, r.i_itype_10];
-                        this.participantTypes = this.processData(4, IncidentUtils.getParticipants().map(x => this.$t(x.translationKey)), participantData);
+                        this.participantTypes = this.processData(4, IncidentUtils.getParticipants().map(x => this.$t(x.translationKey)), participantData, "bottom", false);
 
                         let bikeData = [r.i_biketype_0, r.i_biketype_1, r.i_biketype_2, r.i_biketype_3, r.i_biketype_4, r.i_biketype_5, r.i_biketype_6, r.i_biketype_7, r.i_biketype_8];
-                        this.bikeTypes = this.processData(4, IncidentUtils.getBikeTypes().map(x => this.$t(x.translationKey)), bikeData);
+                        this.bikeTypes = this.processData(4, IncidentUtils.getBikeTypes().map(x => this.$t(x.translationKey)), bikeData, "bottom", false);
 
                         this.ageDistributionOptions.xaxis.categories = ["> 2004", "2000–2004", "1995–1999", "1990–1994", "1985–1989", "1980–1984", "1975–1979", "1970–1974", "1965–1969", "1960–1964", "1955–1959", "1950–1954", "< 1950"];
                         this.ageDistributionData = [
@@ -184,7 +184,7 @@ export default {
                     });
             }, 500);
         },
-        chartOptions(labels) {
+        chartOptions(labels, position, show) {
             return {
                 labels: labels,
                 theme: {
@@ -194,14 +194,15 @@ export default {
                     },
                 },
                 legend: {
-                    position: "bottom",
+                    position: position,
+                    show: show
                 },
                 tooltip: {
                     enabled: true,
                 },
             };
         },
-        processData(showElementCount, labels, data) {
+        processData(showElementCount, labels, data, legendPosition, showLegend) {
             let rData = [];
             let rLabels = [];
 
@@ -219,7 +220,7 @@ export default {
                 rLabels.push(this.$t('statistics.other'));
             }
 
-            return { labels: rLabels, data: rData, options: this.chartOptions(rLabels) };
+            return { labels: rLabels, data: rData, options: this.chartOptions(rLabels, legendPosition, showLegend) };
         },
         formatFloat(number, fractionDigits) {
             return number.toFixed(fractionDigits).replaceAll('.', this.$t('numberFormats.decimalSeparator'));
