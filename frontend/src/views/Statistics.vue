@@ -40,6 +40,10 @@
                     <apexchart type=donut width=100% :options="incidentTypes.options" :series="incidentTypes.data"/>
                 </div>
                 <div class="column">
+                    <h4>{{ $t('statistics.incidents.scaryIncidentTypes') }}</h4>
+                    <apexchart type=donut width=100% :options="scaryIncidentTypes.options" :series="scaryIncidentTypes.data"/>
+                </div>
+                <div class="column">
                     <h4>{{ $t('statistics.incidents.scaryIncidents') }}
                         <b-tooltip :label="$t('statistics.incidents.scaryIncidentsHint')" type="is-light" style="vertical-align: bottom;">
                             <b-tag rounded>?</b-tag>
@@ -113,6 +117,7 @@ export default {
                 decimal: this.$t('numberFormats.decimalSeparator'),
             },
             incidentTypes: { labels: [], data: [], options: {} },
+            scaryIncidentTypes: { labels: [], data: [], options: {} },
             participantTypes: { labels: [], data: [], options: {} },
             bikeTypes: { labels: [], data: [], options: {} },
             ageDistributionOptions: {
@@ -161,6 +166,9 @@ export default {
                         let incidentData = [r.i_incident_0, r.i_incident_1, r.i_incident_2, r.i_incident_3, r.i_incident_4, r.i_incident_5, r.i_incident_6, r.i_incident_7, r.i_incident_8];
                         this.incidentTypes = this.processData(4, IncidentUtils.getTypes().map(x => this.$t(x.translationKey)), incidentData);
 
+                        let scaryIncidentData = [r.i_scary_0, r.i_scary_1, r.i_scary_2, r.i_scary_3, r.i_scary_4, r.i_scary_5, r.i_scary_6, r.i_scary_7, r.i_scary_8];
+                        this.scaryIncidentTypes = this.processData(4, IncidentUtils.getTypes().map(x => this.$t(x.translationKey)), scaryIncidentData);
+
                         let participantData = [r.i_itype_0, r.i_itype_1, r.i_itype_2, r.i_itype_3, r.i_itype_4, r.i_itype_5, r.i_itype_6, r.i_itype_7, r.i_itype_8, r.i_itype_9, r.i_itype_10];
                         this.participantTypes = this.processData(4, IncidentUtils.getParticipants().map(x => this.$t(x.translationKey)), participantData);
 
@@ -194,9 +202,6 @@ export default {
             };
         },
         processData(showElementCount, labels, data) {
-          console.log("showElementCount:",showElementCount)
-          console.log("labels:",labels)
-          console.log("data:",data)
             let rData = [];
             let rLabels = [];
 

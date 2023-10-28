@@ -110,6 +110,7 @@
             "incidents": "Ereignisse",
             "incidentTypes": "Art des Ereignisses",
             "scaryIncidents": "Beängstigende Ereignisse",
+            "scaryIncidentTypes": "Art des beängstigenden Ereignisses",
             "scaryIncidentsHint": "Ein beängstigendes Ereignis ist eines wo der Fahrradfahrer sich um seine Sicherheit fürchtet.",
             "participants": "Andere Beteiligte",
             "participantsHint": "Der andere Verkehrsteilnehmer des Ereignisses.",
