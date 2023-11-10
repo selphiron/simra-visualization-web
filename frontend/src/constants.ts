@@ -114,27 +114,13 @@ let mapStyles = {
         url: "https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png",
         attribution: "&copy; <a href=\"https://wikimediafoundation.org/wiki/Maps_Terms_of_Use\">Wikimedia</a>" + osmAttribution
     }*/,
-    STADIA_ALIDADE_SMOOTH: {
-        key: "STADIA_ALIDADE_SMOOTH",
-        name: "Stadia Light",
-        hasLabelLayer: false,
-        url: "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png",
-        attribution: "&copy; <a href=\"https://stadiamaps.com/\">Stadia Maps</a>, &copy; <a href=\"https://openmaptiles.org/\">OpenMapTiles</a>" + osmAttribution,
-    },
-    STADIA_OUTDOORS: {
-        key: "STADIA_OUTDOORS",
-        name: "Stadia Default",
-        hasLabelLayer: false,
-        url: "https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png",
-        attribution: "&copy; <a href=\"https://stadiamaps.com/\">Stadia Maps</a>, &copy; <a href=\"https://openmaptiles.org/\">OpenMapTiles</a>" + osmAttribution,
-    },
-    STADIA_ALIDADE_SMOOTH_DARK: {
-        key: "STADIA_ALIDADE_SMOOTH_DARK",
-        name: "Stadia Dark",
-        hasLabelLayer: false,
-        url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png",
-        attribution: "&copy; <a href=\"https://stadiamaps.com/\">Stadia Maps</a>, &copy; <a href=\"https://openmaptiles.org/\">OpenMapTiles</a>" + osmAttribution,
-    },
+	ESRI_WORLDIMAGERY: {
+		key: "Esri_WorldImagery",
+		name: "Esri World Imagery",
+		hasLabelLayer: false,
+		url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+		attribution: "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community" + osmAttribution,
+	},
 }
 
 export default {
