@@ -82,7 +82,9 @@
             "polygonContinue": "Klicke um den nächsten Punkt der Form zu zeichnen.",
             "polygonEnd": "Klicke den ersten Punkt um die Form fertigzustellen."
         },
-        "numberOfRides": "Anzahl der Fahrten: "
+        "numberOfRides": "Anzahl der Fahrten: ",
+        "originalRides": "Originalfahrten",
+        "startDestination": "Start- und Zielpunkte"
     },
     "popularity": {
         "avoided": "Vermieden",

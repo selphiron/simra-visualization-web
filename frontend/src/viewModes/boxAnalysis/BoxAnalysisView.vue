@@ -1,12 +1,33 @@
 <template>
-  <div v-if="polygonResult" >
-    <l-geo-json :geojson="polygonResult" :options="rideStyle" />
-    <div v-if="polygonResult.features" class="leaflet-control bottomcenter">
-      <div class="overlay text" style="text-align: center">
-        {{ $t("boxAnalysis.numberOfRides") + polygonResult.features.length}}
-      </div>
+    <div>
+        <div class="leaflet-control topcenter rides-submode-switcher">
+            <b-tabs type="is-toggle-rounded"
+                    :value="boxViewMode"
+                    @change="setBoxViewMode($event)"
+                    @update="setBoxViewMode($event)">
+                <b-tab-item :label="$t('boxAnalysis.startDestination')" icon="route"></b-tab-item>
+                <b-tab-item :label="$t('boxAnalysis.originalRides')" icon="database"></b-tab-item>
+            </b-tabs>
+        </div>
+        <div v-if="polygonResult">
+            <div v-if="boxViewMode === 1">
+                <l-geo-json :geojson="polygonResult" :options="rideStyle"/>
+                <div v-if="polygonResult.features" class="leaflet-control bottomcenter">
+                    <div class="overlay text" style="text-align: center">
+                        {{ $t("boxAnalysis.numberOfRides") + polygonResult.features.length }}
+                    </div>
+                </div>
+            </div>
+            <div v-else-if="boxViewMode === 0">
+                <l-geo-json :geojson="startDestinationResult" :options="markerStyle"/>
+                <div v-if="startDestinationResult.features" class="leaflet-control bottomcenter">
+                    <div class="overlay text" style="text-align: center">
+                        {{ $t("boxAnalysis.numberOfRides") + startDestinationResult.features.length }}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -16,6 +37,10 @@ import * as L from "leaflet";
 
 import Config from "@/constants";
 import { ApiService } from "@/services/ApiService";
+import {ExtraMarkers} from "leaflet-extra-markers";
+import {IncidentUtils} from "@/services/IncidentUtils";
+import Vue from "vue";
+import MapPopup from "@/components/MapPopup.vue";
 
 export default {
     name: "BoxAnalysisView",
@@ -29,12 +54,14 @@ export default {
     },
     data() {
         return {
+            boxViewMode: 0, // 0: start destination, 1: original rides
             config: Config,
             polygon: null,
             polygonResult: [],
             polygonResultAll: null,
             polygonResultStart: null,
             polygonResultEnd: null,
+            startDestinationResult: [],
             polygonResultLoaded: false,
             polygonTool: null,
             rideStyle: {
@@ -47,10 +74,39 @@ export default {
                     };
                 },
             },
+            markerStyle: {
+                pointToLayer: (feature, latlng) =>
+                    L.marker(latlng, {
+                        icon: ExtraMarkers.icon({
+                            icon: this.getStartDestinationIcon(feature.geometry.coordinates, latlng),
+                            markerColor: this.getStartDestinationMarkerColor(feature.geometry.coordinates, latlng),
+                            prefix: "fa",
+                        }),
+                    }),
+            },
             rideStyleHelperCounter: 0,
         }
     },
     methods: {
+        getStartDestinationIcon(incident, latlng) {
+            if (latlng.lng === incident[0][0] && latlng.lat === incident[0][1]) {
+                return "fa-step-forward"
+            } else {
+                return "fa-flag-checkered"
+            }
+        },
+        getStartDestinationMarkerColor(incident, latlng) {
+            if (latlng.lng === incident[0][0] && latlng.lat === incident[0][1]) {
+                return "blue"
+            } else {
+                return "orange-dark"
+            }
+        },
+
+        setBoxViewMode(event) {
+            console.log("bTabClicked event:", event)
+            this.boxViewMode = event
+        },
         initPolygonSelection(mapObject) {
             // Fixing moving the map while adding polygon points
             // Source: https://gis.stackexchange.com/questions/341221/while-dragging-a-map-in-leaflet-it-marks-a-point-for-the-feature
@@ -75,6 +131,7 @@ export default {
                 this.polygonResultAll = null;
                 this.polygonResultStart = null;
                 this.polygonResultEnd = null;
+                this.startDestinationResult = [];
                 this.mapLayer.clearLayers();
                 this.mapLayer.addLayer(e.layer);
 
@@ -92,6 +149,7 @@ export default {
                 this.polygonResultAll = null;
                 this.polygonResultStart = null;
                 this.polygonResultEnd = null;
+                this.startDestinationResult = [];
                 this.mapLayer.clearLayers();
                 this.polygonTool.enable();
             });
@@ -119,12 +177,23 @@ export default {
         },
         mergeResults() {
             let features = [];
+            let startDestinationFeatures = [];
             let filenames = new Set();
 
             let iterationFn = (bitFlag, partialResult) => {
                 if (this.subViewMode & bitFlag && partialResult !== null) {
-                    partialResult.features.forEach((f) => {
+                    partialResult.features.forEach((f, i) => {
                         if (!filenames.has(f.properties.filename)) {
+                            startDestinationFeatures.push({
+                                type: "Feature",
+                                geometry: {
+                                    type: "MultiPoint",
+                                    coordinates: [f.geometry.coordinates[0], f.geometry.coordinates[f.geometry.coordinates.length - 1]]
+                                },
+                                properties: {
+                                    startDestination: true
+                                }
+                            })
                             f.properties.color = parseInt(f.properties.filename.split("_")[1]) % 5;
 
                             features.push(f);
@@ -141,6 +210,10 @@ export default {
             this.polygonResult = {
                 type: "FeatureCollection",
                 features: features,
+            }
+            this.startDestinationResult = {
+                type: "FeatureCollection",
+                features: startDestinationFeatures
             }
         },
         initLeafletDrawTranslations() {

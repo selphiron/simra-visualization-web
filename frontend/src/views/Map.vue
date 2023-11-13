@@ -412,8 +412,6 @@ export default {
       this.showLayer = checked;
     },
     updateUrlQuery() {
-        console.log("this.subViewMode",this.subViewMode)
-        console.log("this.rideThreshold",this.rideThreshold)
       this.$router
           .replace({
             name: "mapQuery",
@@ -465,7 +463,6 @@ export default {
      * overlay is currently active or not.
      */
     switchPopularityView(newSubViewMode) {
-        console.log("switchPopularityView:",newSubViewMode)
       if (this.incidentsVisible) {
         switch (newSubViewMode) {
           case 0: // Popularity combined
