@@ -1,6 +1,15 @@
 <template>
     <div>
-        <template v-if="rideHighlighted === null">
+        <div class="leaflet-control topcenter rides-submode-switcher">
+            <b-tabs type="is-toggle-rounded"
+                    :value="incidentViewMode"
+                    @change="setIncidentViewMode($event)"
+                    @update="setIncidentViewMode($event)">
+                <b-tab-item :label="$t('incident.nearMissIncidents')" icon="exclamation"></b-tab-item>
+                <b-tab-item :label="$t('incident.accidents')" icon="user-injured"></b-tab-item>
+            </b-tabs>
+        </div>
+        <template v-if="incidentViewMode === 0 && rideHighlighted === null">
             <l-tile-layer :url="TILE_URL + '/tiles/incident-combined/{z}/{x}/{y}.png'"/>
 
             <l-geo-json v-if="zoom > 15 && incidents"
@@ -11,7 +20,7 @@
         </template>
 
         <!-- Single, highlighted Bike Ride with its Incidents -->
-        <template v-else>
+        <template v-else-if="incidentViewMode === 0 && rideHighlighted !== null">
             <l-geo-json :geojson="rideHighlighted" :options="rideHighlightedStyle" @ready="$emit('fit-in-view', $event)"/>
 
             <l-marker :lat-lng="rideHighlightedStart" :icon="rideHighlightedStartIcon">
@@ -22,6 +31,14 @@
             </l-marker>
 
             <l-geo-json v-if="rideHighlightedIncidents" :geojson="rideHighlightedIncidents" :options="markerStyle">
+                <l-popup/>
+            </l-geo-json>
+        </template>
+
+        <template v-else-if="incidentViewMode ===1">
+            <l-geo-json v-if="accidents"
+                        :geojson="accidents"
+                        :options="accidentsMarkerStyle">
                 <l-popup/>
             </l-geo-json>
         </template>
@@ -36,6 +53,7 @@ import { ExtraMarkers } from "leaflet-extra-markers";
 import { IncidentUtils } from "@/services/IncidentUtils";
 import { ApiService } from "@/services/ApiService";
 import MapPopup from "@/components/MapPopup";
+import MapPopupAccident from "@/components/MapPopupAccident.vue";
 
 export default {
     name: "IncidentView",
@@ -51,8 +69,10 @@ export default {
     },
     data() {
         return {
+            incidentViewMode: 0, // 0: incidents, 1: accidents
             // Markers
             incidents: [],
+            accidents: require("@/assets/accidents.json"),
             incidentRequestKey: null,
             markerStyle: {
                 pointToLayer: (feature, latlng) => L.marker(latlng, {
@@ -68,6 +88,24 @@ export default {
                             incident: feature.properties,
                             showRouteEnabled: this.rideHighlighted === null,
                             showRoute: () => { this.highlightRide(feature.properties.ride_id) },
+                            t: (key) => { return this.$t(key) },
+                        },
+                    });
+                    return mapPopup.$mount().$el;
+                }),
+            },
+            accidentsMarkerStyle: {
+                pointToLayer: (feature, latlng) => L.marker(latlng, {
+                    icon: ExtraMarkers.icon({
+                        icon: "fa-user-injured",
+                        markerColor: "orange-dark",
+                        prefix: "fa",
+                    }),
+                }),
+                onEachFeature: (feature, layer) => layer.bindPopup(() => {
+                    const mapPopup = new (Vue.extend(MapPopupAccident))({
+                        propsData: {
+                            accident: feature.properties,
                             t: (key) => { return this.$t(key) },
                         },
                     });
@@ -102,6 +140,9 @@ export default {
         },
     },
     methods: {
+        setIncidentViewMode(event) {
+            this.incidentViewMode = event
+        },
         loadIncidents() {
             console.log("loading incidents");
             let min_y = Math.floor(this.bounds._southWest.lat * 100) - 1;

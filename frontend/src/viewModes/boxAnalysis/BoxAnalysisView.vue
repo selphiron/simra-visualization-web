@@ -104,7 +104,6 @@ export default {
         },
 
         setBoxViewMode(event) {
-            console.log("bTabClicked event:", event)
             this.boxViewMode = event
         },
         initPolygonSelection(mapObject) {

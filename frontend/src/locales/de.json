@@ -67,7 +67,18 @@
         "bikeType": "Fahrradtyp",
         "childInvolved": "Kind involviert",
         "bikeWithTrailer": "Fahrrad mit Anhänger",
-        "showBikeRide": "Zeige Fahrradfahrt an"
+        "showBikeRide": "Zeige Fahrradfahrt an",
+        "nearMissIncidents": "Gefahrensituation",
+        "accidents": "Unfälle"
+    },
+    "accident": {
+        "accident": "Unfall",
+        "year": "Jahr: ",
+        "weekday": "Wochentag: ",
+        "participant": "Beteiligt: ",
+        "accidentkind": "Unfallart: ",
+        "accidenttype": "Unfalltyp",
+        "accidentcategory": "Unfallkategorie"
     },
     "surfaceQuality": {
         "aggregated": "Aggregiert",

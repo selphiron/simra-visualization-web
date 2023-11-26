@@ -67,7 +67,18 @@
         "bikeType": "Bike Type",
         "childInvolved": "Child involved",
         "bikeWithTrailer": "Bike with trailer",
-        "showBikeRide": "Show Bike Ride"
+        "showBikeRide": "Show Bike Ride",
+        "nearMissIncidents": "Near Miss Incidents",
+        "accidents": "Accidents"
+    },
+    "accident": {
+        "accident": "Accident",
+        "year": "Year: ",
+        "weekday": "Weekday: ",
+        "participant": "Participant: ",
+        "accidentkind": "Kind of Accident: ",
+        "accidenttype": "Accident Type",
+        "accidentcategory": "Accident Category"
     },
     "surfaceQuality": {
         "aggregated": "Aggregated",
