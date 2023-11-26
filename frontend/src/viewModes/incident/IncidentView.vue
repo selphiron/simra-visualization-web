@@ -36,11 +36,13 @@
         </template>
 
         <template v-else-if="incidentViewMode ===1">
-            <l-geo-json v-if="accidents"
-                        :geojson="accidents"
-                        :options="accidentsMarkerStyle">
-                <l-popup/>
-            </l-geo-json>
+            <vue2-leaflet-markercluster>
+                <l-geo-json v-if="accidents"
+                            :geojson="accidents"
+                            :options="accidentsMarkerStyle">
+                    <l-popup/>
+                </l-geo-json>
+            </vue2-leaflet-markercluster>
         </template>
     </div>
 </template>
@@ -48,13 +50,14 @@
 <script>
 import Vue from "vue";
 import { LGeoJson, LTooltip, LMarker, LTileLayer } from "vue2-leaflet";
+import Vue2LeafletMarkercluster from "vue2-leaflet-markercluster"
+
 import { ExtraMarkers } from "leaflet-extra-markers";
 
 import { IncidentUtils } from "@/services/IncidentUtils";
 import { ApiService } from "@/services/ApiService";
 import MapPopup from "@/components/MapPopup";
 import MapPopupAccident from "@/components/MapPopupAccident.vue";
-
 export default {
     name: "IncidentView",
     components: {
@@ -62,6 +65,7 @@ export default {
         LTooltip,
         LMarker,
         LTileLayer,
+        Vue2LeafletMarkercluster
     },
     props: {
         zoom: Number,
