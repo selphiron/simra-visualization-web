@@ -68,11 +68,24 @@
                 </b-field>
             </SidebarEntry>
 
+            <SidebarEntry
+                :title="$t('sidebar.startFinish')"
+                icon="fa-route"
+                :icon-color="'#1d917c'"
+                :is-small="small"
+                :class="{ selected: value === config.viewModes.START_FINISH }"
+                @entryClicked="switchToView(config.viewModes.START_FINISH)"
+            >
+                <div class="entry-subtext">
+                    {{ $t("sidebar.startFinishDescription") }}
+                </div>
+            </SidebarEntry>
+
             <!-- Incidents -->
             <SidebarEntry
                 :title="$t('sidebar.incidents')"
                 icon="fa-car-crash"
-                :icon-color="'#1d917c'"
+                :icon-color="'#d63e12'"
                 :is-small="small"
                 :class="{ selected: value === config.viewModes.INCIDENTS }"
                 @entryClicked="switchToView(config.viewModes.INCIDENTS)"
@@ -86,7 +99,7 @@
             <SidebarEntry
                 :title="$t('sidebar.surfaceQuality')"
                 icon="fa-road"
-                :icon-color="'#d63e12'"
+                :icon-color="'#156ec7'"
                 :is-small="small"
                 :class="{
                     selected: value === config.viewModes.SURFACE_QUALITY
@@ -102,7 +115,7 @@
             <SidebarEntry
                 :title="$t('sidebar.relativeSpeed')"
                 icon="fa-tachometer-alt"
-                :icon-color="'#156ec7'"
+                :icon-color="'#1d917c'"
                 :is-small="small"
                 :class="{ selected: value === config.viewModes.RELATIVE_SPEED }"
                 @entryClicked="switchToView(config.viewModes.RELATIVE_SPEED)"
@@ -116,7 +129,7 @@
             <SidebarEntry
                 :title="$t('sidebar.stopTimes')"
                 icon="fa-traffic-light"
-                :icon-color="'#1d917c'"
+                :icon-color="'#d63e12'"
                 :is-small="small"
                 :class="{ selected: value === config.viewModes.STOP_TIMES }"
                 @entryClicked="switchToView(config.viewModes.STOP_TIMES)"
@@ -130,7 +143,7 @@
             <SidebarEntry
                 :title="$t('sidebar.popularity')"
                 :icon="'fa-tools'"
-                :icon-color="'#d63e12'"
+                :icon-color="'#156ec7'"
                 :is-small="small"
                 :class="{ selected: value === config.viewModes.POPULARITY }"
                 @entryClicked="switchToView(config.viewModes.POPULARITY)"
@@ -154,7 +167,7 @@
             <SidebarEntry
                 :title="$t('sidebar.boxAnalysis')"
                 icon="fa-draw-polygon"
-                :icon-color="'#156ec7'"
+                :icon-color="'#1d917c'"
                 :is-small="small"
                 :class="{ selected: value === config.viewModes.BOX_ANALYSIS }"
                 @entryClicked="
@@ -186,7 +199,7 @@
             <SidebarEntry
                 :title="$t('sidebar.tools')"
                 :icon="'fa-tools'"
-                :icon-color="'#1d917c'"
+                :icon-color="'#d63e12'"
                 :is-small="small"
                 :class="{ selected: value === config.viewModes.TOOLS }"
                 @entryClicked="switchToView(config.viewModes.TOOLS)"

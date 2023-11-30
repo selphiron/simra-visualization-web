@@ -10,6 +10,8 @@
     },
     "sidebar": {
         "rides": "Fahrten",
+        "startFinish": "Start and Finish points",
+        "startFinishDescription": "Shows the start and finish points of each ride.",
         "incidents": "Ereignisse",
         "incidentsDescription": "Zeigt die Gefährlichkeit pro Straßensegment an indem Standorte und Schwere von Ereignissen analysiert werden. Zoome herein um alle Ereignisse zu sehen.",
         "surfaceQuality": "Oberflächen-Analyse",

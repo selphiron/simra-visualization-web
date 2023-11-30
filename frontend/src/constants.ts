@@ -8,6 +8,7 @@ let viewModes = {
     BOX_ANALYSIS: 6,
     TOOLS: 7,
     POPULARITY: 8,
+    START_FINISH: 9,
     STATISTICS: 99,
 }
 

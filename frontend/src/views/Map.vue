@@ -159,7 +159,15 @@
                 @update:sub-view-mode="subViewMode = $event"
             />
           </div>
-
+            <div>
+                <StartFinishView
+                        v-if="viewMode === config.viewModes.START_FINISH && showLayer"
+                        ref="startFinishView"
+                        :bounds="bounds"
+                        @on-progress="updateLoadingView"
+                        @fit-in-view="fitMapObjectIntoView"
+                />
+            </div>
           <div>
             <IncidentView
                 v-if="viewMode === config.viewModes.INCIDENTS && showLayer"
@@ -265,9 +273,11 @@ import BoxAnalysisView from "@/viewModes/boxAnalysis/BoxAnalysisView";
 import ToolsView from "@/viewModes/tools/ToolsView";
 import PopularityView from "@/viewModes/popularity/PopularityView";
 import Statistics from "@/views/Statistics";
+import StartFinishView from "@/viewModes/startFinish/startFinishView.vue";
 
 export default {
   components: {
+      StartFinishView,
     // Map
     LMap,
     LTileLayer,

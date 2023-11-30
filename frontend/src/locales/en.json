@@ -10,6 +10,8 @@
     },
     "sidebar": {
         "rides": "Rides",
+        "startFinish": "Start and Finish points",
+        "startFinishDescription": "Shows the start and finish points of each ride.",
         "incidents": "Incidents",
         "incidentsDescription": "Shows the dangerousness for each street segment by analyzing the location and severity of incidents. Zoom in to see each incident.",
         "surfaceQuality": "Surface Quality",
