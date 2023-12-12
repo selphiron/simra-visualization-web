@@ -36,13 +36,13 @@
         </template>
 
         <template v-else-if="incidentViewMode ===1">
-            <vue2-leaflet-markercluster>
+
                 <l-geo-json v-if="accidents"
                             :geojson="accidents"
                             :options="accidentsMarkerStyle">
                     <l-popup/>
                 </l-geo-json>
-            </vue2-leaflet-markercluster>
+
         </template>
     </div>
 </template>

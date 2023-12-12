@@ -14,7 +14,7 @@
                 <span class="highlight-text">
                     <ICountUp :delay="100" :endVal="statistics.p_count" :options="icountupOptions"/> {{ $t('statistics.toptext.bicyclists') }}
                 </span>
-                in {{ selectedRegion }} {{ $t('statistics.toptext.cycled') }}
+                in {{ "Walldorf/Wiesloch" }} {{ $t('statistics.toptext.cycled') }}
                 <span class="highlight-text">
                     <ICountUp :delay="400" :endVal="Math.floor(statistics.r_meters / 1000)" :options="icountupOptions"/> km
                 </span>
