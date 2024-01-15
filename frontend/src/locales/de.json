@@ -24,6 +24,7 @@
         "boxAnalysisDescription": "Zeichne eine Form auf der Karte um zu sehen welche Fahrten durch diese gingen. Klicke auf die Form um eine neue zu zeichnen.",
         "tools": "Tools",
         "toolsDescription": "Lade eine Fahrt hoch um sie zu analysieren (ziehe die Datei auf die Karte).",
+        "nextbikeDescription": "Zeigt die NextBike Stationen und Statistiken",
         "popularity": "Beliebtheit",
         "popularityDescription": "Die subjektiv wahrgenommene Beliebtheit von Straßensegmenten.",
         "statistics": "Statistiken",
@@ -81,6 +82,12 @@
         "accidentkind": "Unfallart: ",
         "accidenttype": "Unfalltyp",
         "accidentcategory": "Unfallkategorie"
+    },
+    "nextBike": {
+        "station": "NextBike Fahrradstation",
+        "name": "Name: ",
+        "startAmount": "Losgefahren: ",
+        "endAmount": "Angekommen: "
     },
     "surfaceQuality": {
         "aggregated": "Aggregiert",
@@ -143,7 +150,18 @@
                 "other": "Divers"
             }
         },
-        "other": "Andere"
+        "other": "Andere",
+        "nextBike": {
+            "title": "NextBike Fahrten",
+            "thereWere": "Es gab",
+            "averageNextBike": "Im Durchschnitt dauert eine Fahrt {0} Minuten.",
+            "connectionsTitle": "Häufigste Verbindungen",
+            "connection": "Verbindung (von -> nach)",
+            "amount": "Anzahl",
+            "startsTitle": "Häufigste Startstationen",
+            "endsTitle": "Häufigste Zielstationen",
+            "station": "Station"
+        }
     },
     "incidentTypes": {
         "1": "Nichts",

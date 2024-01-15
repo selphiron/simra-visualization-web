@@ -14,7 +14,7 @@
                 <span class="highlight-text">
                     <ICountUp :delay="100" :endVal="statistics.p_count" :options="icountupOptions"/> {{ $t('statistics.toptext.bicyclists') }}
                 </span>
-                in {{ "Walldorf/Wiesloch" }} {{ $t('statistics.toptext.cycled') }}
+                (SimRa) in {{ "Walldorf/Wiesloch" }} {{ $t('statistics.toptext.cycled') }}
                 <span class="highlight-text">
                     <ICountUp :delay="400" :endVal="Math.floor(statistics.r_meters / 1000)" :options="icountupOptions"/> km
                 </span>
@@ -80,6 +80,190 @@
                 <div class="column">
                     <apexchart type=donut width=100% :options="chartOptions([$t('statistics.users.genderList.male'), $t('statistics.users.genderList.female'), $t('statistics.users.genderList.other')])" :series="[statistics.p_gender_male, statistics.p_gender_female, statistics.p_gender_other]"/>
                 </div>
+            </div>
+
+            <hr>
+
+            <h3>{{ $t('statistics.nextBike.title') }}</h3>
+            <div class="top-text">
+                {{ $t('statistics.nextBike.thereWere') }}
+                <span class="highlight-text">
+                    <ICountUp :delay="100" :endVal="25784" :options="icountupOptions"/> {{ $t('statistics.toptext.inRides2')}}
+                </span>
+                 in {{ "Walldorf/Wiesloch." }}
+            </div>
+            <div class="top-subtext">
+                {{ $t('statistics.nextBike.averageNextBike', [32]) }}
+            </div>
+
+            <hr>
+
+            <div class="columns">
+                <table class="table column">
+                    <thead>
+                        <tr>
+                            <th>{{ $t('statistics.nextBike.connectionsTitle') }}</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th>{{ $t('statistics.nextBike.connection') }}</th>
+                            <th>{{ $t('statistics.nextBike.amount') }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>WDF10-12 -> WDF18-21, WDF53</th>
+                            <th>268</th>
+                        </tr>
+                        <tr>
+                            <th>WDF54 -> WDF54</th>
+                            <th>259</th>
+                        </tr>
+                        <tr>
+                            <th>WDF10-12 -> WDF10-12</th>
+                            <th>243</th>
+                        </tr>
+                        <tr>
+                            <th>WDF18-21, WDF53 -> WDF10-12</th>
+                            <th>228</th>
+                        </tr>
+                        <tr>
+                            <th>WDF13 -> WDF13</th>
+                            <th>223</th>
+                        </tr>
+                        <tr>
+                            <th>WDF18-21, WDF53 -> WDF15</th>
+                            <th>199</th>
+                        </tr>
+                        <tr>
+                            <th>WDF54->WDF10-12</th>
+                            <th>186</th>
+                        </tr>
+                        <tr>
+                            <th>WDF15 -> WDF18-21, WDF53</th>
+                            <th>181</th>
+                        </tr>
+                        <tr>
+                            <th>WDF10-12 -> WDF54</th>
+                            <th>170</th>
+                        </tr>
+                        <tr>
+                            <th>WDF15 -> WDF54</th>
+                            <th>161</th>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table column">
+                    <thead>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.startsTitle') }}</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.station') }}</th>
+                        <th>{{ $t('statistics.nextBike.amount') }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>WDF10-12</th>
+                        <th>2188</th>
+                    </tr>
+                    <tr>
+                        <th>WDF54</th>
+                        <th>1977</th>
+                    </tr>
+                    <tr>
+                        <th>WDF15</th>
+                        <th>1711</th>
+                    </tr>
+                    <tr>
+                        <th>WDF13</th>
+                        <th>1687</th>
+                    </tr>
+                    <tr>
+                        <th>WDF18-21, WDF53</th>
+                        <th>1441</th>
+                    </tr>
+                    <tr>
+                        <th>WDF16</th>
+                        <th>689</th>
+                    </tr>
+                    <tr>
+                        <th>Astoriahalle/ Schwetzinger Straße</th>
+                        <th>192</th>
+                    </tr>
+                    <tr>
+                        <th>SAP Campus 2</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <th>NVZ Rennbahnstraße</th>
+                        <th>2</th>
+                    </tr>
+                    <tr>
+                        <th>SAP WALLDORF</th>
+                        <th>0</th>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <table class="table column">
+                    <thead>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.endsTitle') }}</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.station') }}</th>
+                        <th>{{ $t('statistics.nextBike.amount') }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>WDF10-12</th>
+                        <th>2102</th>
+                    </tr>
+                    <tr>
+                        <th>WDF54</th>
+                        <th>1770</th>
+                    </tr>
+                    <tr>
+                        <th>WDF15</th>
+                        <th>1695</th>
+                    </tr>
+                    <tr>
+                        <th>WDF13</th>
+                        <th>1536</th>
+                    </tr>
+                    <tr>
+                        <th>WDF18-21, WDF53</th>
+                        <th>1414</th>
+                    </tr>
+                    <tr>
+                        <th>WDF16</th>
+                        <th>613</th>
+                    </tr>
+                    <tr>
+                        <th>Astoriahalle/ Schwetzinger Straße</th>
+                        <th>33</th>
+                    </tr>
+                    <tr>
+                        <th>NVZ Rennbahnstraße</th>
+                        <th>27</th>
+                    </tr>
+                    <tr>
+                        <th>Drehscheibe / Hauptstraße</th>
+                        <th>26</th>
+                    </tr>
+                    <tr>
+                        <th>Bahnhof West</th>
+                        <th>22</th>
+                    </tr>
+                    </tbody>
+                </table>
+
             </div>
         </div>
         <div class="wrapper" v-else style="height: calc(100vh - 57px - 68px - 80px)">

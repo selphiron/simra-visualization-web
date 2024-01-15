@@ -1,0 +1,356 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Walldorf-Ost / Haus der Kinder",
+      "starts" : "0",
+      "ends" : "12"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.651768123, 49.3003895 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF13",
+      "starts" : "1687",
+      "ends" : "1536"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.648692, 49.29265 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF15",
+      "starts" : "1711",
+      "ends" : "1695"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.644148111, 49.29349089 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF16",
+      "starts" : "689",
+      "ends" : "613"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.644169569, 49.29196548 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "recording_193123747",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.648683333, 49.30904889 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF18-21, WDF53",
+      "starts" : "1441",
+      "ends" : "1414"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.638078, 49.294956 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Kirchheim - S-Bahnhof",
+      "starts" : "0",
+      "ends" : "2"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.676339984, 49.37875116 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "recording_181129494",
+      "starts" : "1",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.663880556, 49.29141778 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "SAP WALLDORF",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.640599444, 49.29413333 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Schlossplatz Schwetzingen",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.572597504, 49.38426207 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Bahnhof West",
+      "starts" : "0",
+      "ends" : "22"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.663856049, 49.29134732 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "SAP Campus 2",
+      "starts" : "3",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.643681407, 49.29431306 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Tourist-Information",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.57129395, 49.3855297 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Simone Transporter ",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.527750969, 49.47944587 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Jugendzentrum GO IN",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.574662805, 49.38023197 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Walldorf-Nordost / St. Ilgener Str.",
+      "starts" : "0",
+      "ends" : "13"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.64869531, 49.30898126 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Daimlerstraße / Carl-Benz-Straße / SAP Campus 1",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.64611774, 49.28944044 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Studentensiedlung Ludwig Frank",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.492206335, 49.50690292 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "NVZ Rennbahnstraße",
+      "starts" : "2",
+      "ends" : "27"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.635154795, 49.30849062 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Rathaus Walldorf",
+      "starts" : "0",
+      "ends" : "9"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.646906749, 49.30466983 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "NVZ Bahnhofstraße",
+      "starts" : "0",
+      "ends" : "18"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.644394875, 49.29953259 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF54",
+      "starts" : "1977",
+      "ends" : "1770"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.645575, 49.289155 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Drehscheibe / Hauptstraße",
+      "starts" : "0",
+      "ends" : "26"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.642981952, 49.30300487 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Sap Walldorf",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.638217778, 49.29438222 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "recording_197269132",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 0.0, 0.0 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Station Bahnhof",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.663958333, 49.291 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Osvaldo Transporter ",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.553607464, 49.47863726 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "recording_183678237",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.639695, 49.29196889 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Walldorf Rathaus",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.641316667, 49.30866667 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "SAP Walldorf",
+      "starts" : "0",
+      "ends" : "1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.637286111, 49.29290222 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Astoriahalle/ Schwetzinger Straße",
+      "starts" : "192",
+      "ends" : "32"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.63908288, 49.31346138 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF10-12",
+      "starts" : "2188",
+      "ends" : "2102"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.643402457, 49.2944495 ]
+    }
+  } ]
+}

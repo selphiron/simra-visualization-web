@@ -24,6 +24,7 @@
         "boxAnalysisDescription": "Draw a shape on the map to see what bike rides went through it. Click on the shape to draw a new one.",
         "tools": "Tools",
         "toolsDescription": "Upload a ride to analyze it (drag the file on the map).",
+        "nextbikeDescription": "Shows the NextBike stations and their statistics.",
         "popularity": "Popularity",
         "popularityDescription": "The subjective popularity of street segments.",
         "statistics": "Statistics",
@@ -81,6 +82,12 @@
         "accidentkind": "Kind of Accident: ",
         "accidenttype": "Accident Type",
         "accidentcategory": "Accident Category"
+    },
+    "nextBike": {
+        "station": "NextBike Bicycle Station",
+        "name": "Name: ",
+        "startAmount": "Amount of starts: ",
+        "endAmount": "Amount of destinations: "
     },
     "surfaceQuality": {
         "aggregated": "Aggregated",
@@ -143,7 +150,18 @@
                 "other": "Other"
             }
         },
-        "other": "Other"
+        "other": "Other",
+        "nextBike": {
+            "title": "NextBike Rides",
+            "thereWere": "There were",
+            "averageNextBike": "On average, one ride lasts {0} minutes.",
+            "connectionsTitle": "Most common connections",
+            "connection": "Connection (from -> to)",
+            "amount": "Amount",
+            "startsTitle": "Most common start station",
+            "endsTitle": "Most common destination station",
+            "station": "station"
+        }
     },
     "incidentTypes": {
         "1": "Nothing",

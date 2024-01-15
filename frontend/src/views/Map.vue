@@ -178,6 +178,13 @@
                 @fit-in-view="fitMapObjectIntoView"
             />
           </div>
+            <div>
+                <NextBikeView
+                    v-if="viewMode === config.viewModes.NEXT_BIKE && showLayer"
+                    ref="nextBikeView"
+                    @fit-in-view="fitMapObjectIntoView"
+                />
+            </div>
           <div>
             <SurfaceQualityView
                 v-if="viewMode === config.viewModes.SURFACE_QUALITY && showLayer"
@@ -274,9 +281,11 @@ import ToolsView from "@/viewModes/tools/ToolsView";
 import PopularityView from "@/viewModes/popularity/PopularityView";
 import Statistics from "@/views/Statistics";
 import StartFinishView from "@/viewModes/startFinish/startFinishView.vue";
+import NextBikeView from "@/viewModes/nextBike/NextBikeView.vue";
 
 export default {
   components: {
+      NextBikeView,
       StartFinishView,
     // Map
     LMap,

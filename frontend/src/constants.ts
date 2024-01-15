@@ -9,6 +9,7 @@ let viewModes = {
     TOOLS: 7,
     POPULARITY: 8,
     START_FINISH: 9,
+    NEXT_BIKE: 10,
     STATISTICS: 99,
 }
 

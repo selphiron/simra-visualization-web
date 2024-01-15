@@ -208,6 +208,19 @@
                     {{ $t("sidebar.toolsDescription") }}
                 </div>
             </SidebarEntry>
+
+            <SidebarEntry
+                :title="'NextBike'"
+                :icon="'fa-bicycle'"
+                :icon-color="'#156ec7'"
+                :is-small="small"
+                :class="{ selected: value === config.viewModes.NEXT_BIKE }"
+                @entryClicked="switchToView(config.viewModes.NEXT_BIKE)"
+            >
+                <div class="entry-subtext">
+                    {{ $t("sidebar.nextbikeDescription") }}
+                </div>
+            </SidebarEntry>
         </div>
 
         <div
