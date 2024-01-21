@@ -87,7 +87,11 @@
         "station": "NextBike Bicycle Station",
         "name": "Name: ",
         "startAmount": "Amount of starts: ",
-        "endAmount": "Amount of destinations: "
+        "endAmount": "Amount of destinations: ",
+        "connectionsTo": "Connections to",
+        "from": "Departures: ",
+        "to": "Arrivals: "
+
     },
     "surfaceQuality": {
         "aggregated": "Aggregated",
@@ -152,11 +156,15 @@
         },
         "other": "Other",
         "nextBike": {
-            "title": "NextBike Rides",
+            "titleSAP": "SAP NextBike",
+            "titleWalldorf": "Walldorf NextBike",
             "thereWere": "There were",
             "averageNextBike": "On average, one ride lasts {0} minutes.",
             "connectionsTitle": "Most common connections",
             "connection": "Connection (from -> to)",
+            "bikeConnections": "Connections with station-independent bicycles: ",
+            "bikeStart": "Rides started with a station independent bicycle: ",
+            "bikeEnd": "Rides not finished at a station",
             "amount": "Amount",
             "startsTitle": "Most common start station",
             "endsTitle": "Most common destination station",

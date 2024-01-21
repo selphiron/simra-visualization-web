@@ -87,7 +87,10 @@
         "station": "NextBike Fahrradstation",
         "name": "Name: ",
         "startAmount": "Losgefahren: ",
-        "endAmount": "Angekommen: "
+        "endAmount": "Angekommen: ",
+        "connectionsTo": "Verbindungen zu",
+        "from": "Ankünfte : ",
+        "to": "Abfahrten: "
     },
     "surfaceQuality": {
         "aggregated": "Aggregiert",
@@ -152,11 +155,15 @@
         },
         "other": "Andere",
         "nextBike": {
-            "title": "NextBike Fahrten",
+            "titleSAP": "SAP NextBike",
+            "titleWalldorf": "Walldorf NextBike",
             "thereWere": "Es gab",
             "averageNextBike": "Im Durchschnitt dauert eine Fahrt {0} Minuten.",
             "connectionsTitle": "Häufigste Verbindungen",
             "connection": "Verbindung (von -> nach)",
+            "bikeConnections": "Verbindungen mit stationsungebundenen Fahrrädern: ",
+            "bikeStart": "Mit stationsungebundenen Fahrrädern begonnene Fahrten: ",
+            "bikeEnd": "Nicht in Stationen beendete Fahrten: ",
             "amount": "Anzahl",
             "startsTitle": "Häufigste Startstationen",
             "endsTitle": "Häufigste Zielstationen",

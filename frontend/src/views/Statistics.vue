@@ -84,13 +84,13 @@
 
             <hr>
 
-            <h3>{{ $t('statistics.nextBike.title') }}</h3>
+            <h3>{{ $t('statistics.nextBike.titleWalldorf') }}</h3>
             <div class="top-text">
                 {{ $t('statistics.nextBike.thereWere') }}
                 <span class="highlight-text">
                     <ICountUp :delay="100" :endVal="25784" :options="icountupOptions"/> {{ $t('statistics.toptext.inRides2')}}
                 </span>
-                 in {{ "Walldorf/Wiesloch." }}
+                 in {{ "Walldorf." }}
             </div>
             <div class="top-subtext">
                 {{ $t('statistics.nextBike.averageNextBike', [32]) }}
@@ -112,45 +112,227 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th>WDF10-12 -> WDF18-21, WDF53</th>
-                            <th>268</th>
+                            <th>Walldorf-Ost / Haus der Kinder -><br/>Bahnhof West</th>
+                            <th>128</th>
                         </tr>
                         <tr>
-                            <th>WDF54 -> WDF54</th>
-                            <th>259</th>
+                            <th>Bahnhof West -><br/>Drehscheibe / Hauptstraße</th>
+                            <th>125</th>
                         </tr>
                         <tr>
-                            <th>WDF10-12 -> WDF10-12</th>
-                            <th>243</th>
+                            <th>Bahnhof West -><br/>Walldorf-Ost / Haus der Kinder</th>
+                            <th>125</th>
                         </tr>
                         <tr>
-                            <th>WDF18-21, WDF53 -> WDF10-12</th>
-                            <th>228</th>
+                            <th>Bahnhof West -><br/>NVZ Bahnhofstraße</th>
+                            <th>99</th>
                         </tr>
                         <tr>
-                            <th>WDF13 -> WDF13</th>
-                            <th>223</th>
+                            <th>Drehscheibe / Hauptstraße -><br/>Bahnhof West</th>
+                            <th>93</th>
                         </tr>
                         <tr>
-                            <th>WDF18-21, WDF53 -> WDF15</th>
-                            <th>199</th>
+                            <th>NVZ Bahnhofstraße -><br/>Bahnhof West</th>
+                            <th>83</th>
                         </tr>
                         <tr>
-                            <th>WDF54->WDF10-12</th>
-                            <th>186</th>
+                            <th>NVZ Rennbahnstraße -><br/>NVZ Rennbahnstraße</th>
+                            <th>80</th>
                         </tr>
                         <tr>
-                            <th>WDF15 -> WDF18-21, WDF53</th>
-                            <th>181</th>
+                            <th>Walldorf-Ost / Haus der Kinder -><br/>Walldorf-Ost / Haus der Kinder</th>
+                            <th>80</th>
                         </tr>
                         <tr>
-                            <th>WDF10-12 -> WDF54</th>
-                            <th>170</th>
+                            <th>Rathaus Walldorf -><br/>Bahnhof West</th>
+                            <th>79</th>
                         </tr>
                         <tr>
-                            <th>WDF15 -> WDF54</th>
-                            <th>161</th>
+                            <th>{{ $t('statistics.nextBike.bikeConnections') }}</th>
+                            <th>1340</th>
                         </tr>
+                    </tbody>
+                </table>
+
+                <table class="table column">
+                    <thead>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.startsTitle') }}</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.station') }}</th>
+                        <th>{{ $t('statistics.nextBike.amount') }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>Bahnhof West</th>
+                        <th>805</th>
+                    </tr>
+                    <tr>
+                        <th>Drehscheibe / Hauptstraße</th>
+                        <th>390</th>
+                    </tr>
+                    <tr>
+                        <th>SAP Campus 2</th>
+                        <th>374</th>
+                    </tr>
+                    <tr>
+                        <th>Walldorf-Ost / Haus der Kinder</th>
+                        <th>345</th>
+                    </tr>
+                    <tr>
+                        <th>NVZ Rennbahnstraße</th>
+                        <th>298</th>
+                    </tr>
+                    <tr>
+                        <th>NVZ Bahnhofstraße</th>
+                        <th>254</th>
+                    </tr>
+                    <tr>
+                        <th>Astoriahalle / Schwetzinger Straße</th>
+                        <th>191</th>
+                    </tr>
+                    <tr>
+                        <th>Rathaus Walldorf</th>
+                        <th>189</th>
+                    </tr>
+                    <tr>
+                        <th>Walldorf-Nordost / St. Ilgener Str.</th>
+                        <th>172</th>
+                    </tr>
+                    <tr>
+                        <th> {{$t('statistics.nextBike.bikeStart')}}</th>
+                        <th>836</th>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <table class="table column">
+                    <thead>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.endsTitle') }}</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.station') }}</th>
+                        <th>{{ $t('statistics.nextBike.amount') }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>Bahnhof West</th>
+                        <th>789</th>
+                    </tr>
+                    <tr>
+                        <th>Drehscheibe / Hauptstraße</th>
+                        <th>396</th>
+                    </tr>
+                    <tr>
+                        <th>SAP Campus 2</th>
+                        <th>322</th>
+                    </tr>
+                    <tr>
+                        <th>NVZ Rennbahnstraße</th>
+                        <th>317</th>
+                    </tr>
+                    <tr>
+                        <th>Walldorf-Ost / Haus der Kinder</th>
+                        <th>304</th>
+                    </tr>
+                    <tr>
+                        <th>NVZ Bahnhofstraße</th>
+                        <th>218</th>
+                    </tr>
+                    <tr>
+                        <th>Astoriahalle / Schwetzinger Straße</th>
+                        <th>190</th>
+                    </tr>
+                    <tr>
+                        <th>Rathaus Walldorf</th>
+                        <th>181</th>
+                    </tr>
+                    <tr>
+                        <th>Walldorf-Nordost / St. Ilgener Str.</th>
+                        <th>152</th>
+                    </tr>
+                    <tr>
+                        <th> {{$t('statistics.nextBike.bikeEnd')}}</th>
+                        <th>949</th>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <h3>{{ $t('statistics.nextBike.titleSAP') }}</h3>
+            <div class="top-text">
+                {{ $t('statistics.nextBike.thereWere') }}
+                <span class="highlight-text">
+                    <ICountUp :delay="100" :endVal="25592" :options="icountupOptions"/> {{ $t('statistics.toptext.inRides2')}}
+                </span>
+                in {{ "Walldorf (SAP)." }}
+            </div>
+            <div class="top-subtext">
+                {{ $t('statistics.nextBike.averageNextBike', [32]) }}
+            </div>
+
+            <hr>
+
+            <div class="columns">
+                <table class="table column">
+                    <thead>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.connectionsTitle') }}</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.connection') }}</th>
+                        <th>{{ $t('statistics.nextBike.amount') }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>WDF10-12 -><br/>WDF18-21, WDF53</th>
+                        <th>268</th>
+                    </tr>
+                    <tr>
+                        <th>WDF54 -><br/>WDF54</th>
+                        <th>259</th>
+                    </tr>
+                    <tr>
+                        <th>WDF10-12 -><br/>WDF10-12</th>
+                        <th>243</th>
+                    </tr>
+                    <tr>
+                        <th>WDF18-21, WDF53 -><br/>WDF10-12</th>
+                        <th>228</th>
+                    </tr>
+                    <tr>
+                        <th>WDF13 -><br/>WDF13</th>
+                        <th>223</th>
+                    </tr>
+                    <tr>
+                        <th>WDF18-21, WDF53 -><br/>WDF15</th>
+                        <th>199</th>
+                    </tr>
+                    <tr>
+                        <th>WDF54->WDF10-12</th>
+                        <th>186</th>
+                    </tr>
+                    <tr>
+                        <th>WDF15 -><br/>WDF18-21, WDF53</th>
+                        <th>181</th>
+                    </tr>
+                    <tr>
+                        <th>WDF10-12 -><br/>WDF54</th>
+                        <th>170</th>
+                    </tr>
+                    <tr>
+                        <th>{{ $t('statistics.nextBike.bikeConnections') }}</th>
+                        <th>21606</th>
+                    </tr>
                     </tbody>
                 </table>
 
@@ -191,8 +373,8 @@
                         <th>689</th>
                     </tr>
                     <tr>
-                        <th>Astoriahalle/ Schwetzinger Straße</th>
-                        <th>192</th>
+                        <th>SAP Campus 2</th>
+                        <th>3</th>
                     </tr>
                     <tr>
                         <th>SAP Campus 2</th>
@@ -203,8 +385,8 @@
                         <th>2</th>
                     </tr>
                     <tr>
-                        <th>SAP WALLDORF</th>
-                        <th>0</th>
+                        <th> {{$t('statistics.nextBike.bikeStart')}}</th>
+                        <th>15892</th>
                     </tr>
                     </tbody>
                 </table>
@@ -246,20 +428,20 @@
                         <th>613</th>
                     </tr>
                     <tr>
-                        <th>Astoriahalle/ Schwetzinger Straße</th>
-                        <th>33</th>
+                        <th>SAP Walldorf</th>
+                        <th>3</th>
                     </tr>
                     <tr>
-                        <th>NVZ Rennbahnstraße</th>
-                        <th>27</th>
+                        <th>Station Bahnhof</th>
+                        <th>1</th>
                     </tr>
                     <tr>
-                        <th>Drehscheibe / Hauptstraße</th>
-                        <th>26</th>
+                        <th>Walldorf Rathaus</th>
+                        <th>1</th>
                     </tr>
                     <tr>
-                        <th>Bahnhof West</th>
-                        <th>22</th>
+                        <th> {{$t('statistics.nextBike.bikeEnd')}}</th>
+                        <th>16451</th>
                     </tr>
                     </tbody>
                 </table>

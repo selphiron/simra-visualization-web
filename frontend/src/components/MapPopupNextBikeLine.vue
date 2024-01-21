@@ -1,14 +1,13 @@
 <template>
     <div>
-        <strong >{{ t('nextBike.station') }}</strong>
+        <strong >{{ t('nextBike.connectionsTo') }}  {{connection.name}}</strong>
         <br>
         <hr>
-        <template> {{ t('nextBike.name') }} {{ station.name }}</template> <br>
-        <template> {{ t('nextBike.startAmount') }} {{ station.starts }}</template> <br>
-        <template> {{ t('nextBike.endAmount') }} {{ station.ends }}</template> <br>
+        <template> {{ t('nextBike.from') }} {{ connection.ends }}</template> <br>
+        <template> {{ t('nextBike.to') }} {{ connection.starts }}</template> <br>
 
         <template v-if="isDebug && false">
-            <hr>Debug information: {{ station }}<hr>
+            <hr>Debug information: {{ connection }}<hr>
         </template>
 
     </div>
@@ -18,9 +17,9 @@
 import { IncidentUtils } from "@/services/IncidentUtils";
 
 export default {
-    name: "MapPopupNextBike",
+    name: "MapPopupNextBikeLine",
     props: {
-        station: Object,
+        connection: Object,
         t: Function, // Translations don't work in manually mounted components
     },
     data() {
