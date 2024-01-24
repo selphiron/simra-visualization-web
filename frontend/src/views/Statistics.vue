@@ -149,7 +149,7 @@
                         </tr>
                         <tr>
                             <th>{{ $t('statistics.nextBike.bikeConnections') }}</th>
-                            <th>1340</th>
+                            <th>1331</th>
                         </tr>
                     </tbody>
                 </table>
@@ -168,7 +168,7 @@
                     <tbody>
                     <tr>
                         <th>Bahnhof West</th>
-                        <th>805</th>
+                        <th>798</th>
                     </tr>
                     <tr>
                         <th>Drehscheibe / Hauptstraße</th>
@@ -176,19 +176,19 @@
                     </tr>
                     <tr>
                         <th>SAP Campus 2</th>
-                        <th>374</th>
+                        <th>371</th>
                     </tr>
                     <tr>
                         <th>Walldorf-Ost / Haus der Kinder</th>
-                        <th>345</th>
+                        <th>344</th>
                     </tr>
                     <tr>
                         <th>NVZ Rennbahnstraße</th>
-                        <th>298</th>
+                        <th>297</th>
                     </tr>
                     <tr>
                         <th>NVZ Bahnhofstraße</th>
-                        <th>254</th>
+                        <th>252</th>
                     </tr>
                     <tr>
                         <th>Astoriahalle / Schwetzinger Straße</th>
@@ -204,7 +204,7 @@
                     </tr>
                     <tr>
                         <th> {{$t('statistics.nextBike.bikeStart')}}</th>
-                        <th>836</th>
+                        <th>831</th>
                     </tr>
                     </tbody>
                 </table>
@@ -223,11 +223,11 @@
                     <tbody>
                     <tr>
                         <th>Bahnhof West</th>
-                        <th>789</th>
+                        <th>788</th>
                     </tr>
                     <tr>
                         <th>Drehscheibe / Hauptstraße</th>
-                        <th>396</th>
+                        <th>395</th>
                     </tr>
                     <tr>
                         <th>SAP Campus 2</th>
@@ -259,7 +259,7 @@
                     </tr>
                     <tr>
                         <th> {{$t('statistics.nextBike.bikeEnd')}}</th>
-                        <th>949</th>
+                        <th>945</th>
                     </tr>
                     </tbody>
                 </table>
@@ -331,7 +331,7 @@
                     </tr>
                     <tr>
                         <th>{{ $t('statistics.nextBike.bikeConnections') }}</th>
-                        <th>21606</th>
+                        <th>21470</th>
                     </tr>
                     </tbody>
                 </table>
@@ -350,31 +350,27 @@
                     <tbody>
                     <tr>
                         <th>WDF10-12</th>
-                        <th>2188</th>
+                        <th>2181</th>
                     </tr>
                     <tr>
                         <th>WDF54</th>
-                        <th>1977</th>
+                        <th>1972</th>
                     </tr>
                     <tr>
                         <th>WDF15</th>
-                        <th>1711</th>
+                        <th>1704</th>
                     </tr>
                     <tr>
                         <th>WDF13</th>
-                        <th>1687</th>
+                        <th>1681</th>
                     </tr>
                     <tr>
                         <th>WDF18-21, WDF53</th>
-                        <th>1441</th>
+                        <th>1437</th>
                     </tr>
                     <tr>
                         <th>WDF16</th>
-                        <th>689</th>
-                    </tr>
-                    <tr>
-                        <th>SAP Campus 2</th>
-                        <th>3</th>
+                        <th>688</th>
                     </tr>
                     <tr>
                         <th>SAP Campus 2</th>
@@ -385,8 +381,12 @@
                         <th>2</th>
                     </tr>
                     <tr>
+                        <th>Astoriahalle/ Schwetzinger Straße</th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
                         <th> {{$t('statistics.nextBike.bikeStart')}}</th>
-                        <th>15892</th>
+                        <th>15785</th>
                     </tr>
                     </tbody>
                 </table>
@@ -405,27 +405,27 @@
                     <tbody>
                     <tr>
                         <th>WDF10-12</th>
-                        <th>2102</th>
+                        <th>2097</th>
                     </tr>
                     <tr>
                         <th>WDF54</th>
-                        <th>1770</th>
+                        <th>1767</th>
                     </tr>
                     <tr>
                         <th>WDF15</th>
-                        <th>1695</th>
+                        <th>1688</th>
                     </tr>
                     <tr>
                         <th>WDF13</th>
-                        <th>1536</th>
+                        <th>1534</th>
                     </tr>
                     <tr>
                         <th>WDF18-21, WDF53</th>
-                        <th>1414</th>
+                        <th>1410</th>
                     </tr>
                     <tr>
                         <th>WDF16</th>
-                        <th>613</th>
+                        <th>610</th>
                     </tr>
                     <tr>
                         <th>SAP Walldorf</th>
@@ -441,7 +441,7 @@
                     </tr>
                     <tr>
                         <th> {{$t('statistics.nextBike.bikeEnd')}}</th>
-                        <th>16451</th>
+                        <th>16341</th>
                     </tr>
                     </tbody>
                 </table>

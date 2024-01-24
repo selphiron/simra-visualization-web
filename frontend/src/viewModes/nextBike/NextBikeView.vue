@@ -71,6 +71,7 @@ export default {
                 },
 
             },
+            // Lines
             connections: null,
             connectionsLineStyle: {
                 onEachFeature: (feature, layer) => {
@@ -139,6 +140,8 @@ export default {
                         })
                     })
                     this.connections = thisConnections
+                } else {
+                    this.connections = null
                 }
                 this.lastClickedMarker = event.target.feature.geometry.coordinates
             } else {
