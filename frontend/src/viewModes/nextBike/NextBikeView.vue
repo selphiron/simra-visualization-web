@@ -43,7 +43,8 @@ export default {
     data: function () {
         return {
             // Markers
-            stations: require("@/assets/SAP Bikesharing.json"),
+            // stations: require("@/assets/SAP Bikesharing.json"),
+            stations: require("@/assets/Nextbike.json"),
             stationsMarkerStyle: {
                 pointToLayer: (feature, latlng) => L.marker(latlng, {
                     icon: ExtraMarkers.icon({
