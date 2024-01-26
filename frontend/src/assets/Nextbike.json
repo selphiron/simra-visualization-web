@@ -207,18 +207,6 @@
   }, {
     "type" : "Feature",
     "properties" : {
-      "name" : "2485",
-      "starts" : "0",
-      "ends" : "3",
-      "stations" : "Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;0;1$Bahnhof West;8.663856049;49.29134732;0;2"
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ 8.6433518, 49.3038134 ]
-    }
-  }, {
-    "type" : "Feature",
-    "properties" : {
       "name" : "Theresienkrankenhaus",
       "starts" : "0",
       "ends" : "1",
