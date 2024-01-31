@@ -1,0 +1,604 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF13",
+      "starts" : "1681",
+      "ends" : "1535",
+      "stations" : "WDF54;8.645575;49.289155;142;124$WDF13;8.648692;49.29265;222;223$WDF15;8.644148111;49.29349089;54;82$WDF16;8.644169569;49.29196548;7;17$WDF18-21, WDF53;8.638078;49.294956;159;114$SAP Campus 2;8.643681407;49.29431306;0;1$WDF10-12;8.643402457;49.2944495;88;107"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.648692, 49.29265 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF15",
+      "starts" : "1704",
+      "ends" : "1691",
+      "stations" : "WDF54;8.645575;49.289155;160;144$WDF13;8.648692;49.29265;82;54$WDF15;8.644148111;49.29349089;127;128$WDF16;8.644169569;49.29196548;8;10$WDF18-21, WDF53;8.638078;49.294956;180;199$WDF10-12;8.643402457;49.2944495;50;30$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.644148111, 49.29349089 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF16",
+      "starts" : "688",
+      "ends" : "610",
+      "stations" : "WDF54;8.645575;49.289155;81;110$WDF13;8.648692;49.29265;17;7$WDF15;8.644148111;49.29349089;10;8$WDF16;8.644169569;49.29196548;68;69$WDF18-21, WDF53;8.638078;49.294956;35;25$WDF10-12;8.643402457;49.2944495;14;10"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.644169569, 49.29196548 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Gewerkschaftshaus",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : ""
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.475705385, 49.49068491 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF18-21, WDF53",
+      "starts" : "1437",
+      "ends" : "1414",
+      "stations" : "WDF54;8.645575;49.289155;64;72$WDF13;8.648692;49.29265;114;159$WDF15;8.644148111;49.29349089;199;180$WDF16;8.644169569;49.29196548;25;35$WDF18-21, WDF53;8.638078;49.294956;94;95$Bahnhof West;8.663856049;49.29134732;0;1$WDF10-12;8.643402457;49.2944495;228;267$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.638078, 49.294956 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Schlossplatz Schwetzingen",
+      "starts" : "0",
+      "ends" : "2",
+      "stations" : "Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.572597504, 49.38426207 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Freibad",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : "Bahnhof Lützelsachsen;8.657237291;49.52670911;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.609622717, 49.46422636 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Bellamar",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : ""
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.588181138, 49.38134255 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "SAP Campus 2",
+      "starts" : "374",
+      "ends" : "322",
+      "stations" : "Walldorf-Ost / Haus der Kinder;8.651768123;49.3003895;24;43$NVZ Rennbahnstraße;8.635154795;49.30849062;23;49$Rathaus Walldorf;8.646906749;49.30466983;7;3$NVZ Bahnhofstraße;8.644394875;49.29953259;9;6$WDF13;8.648692;49.29265;1;0$Drehscheibe / Hauptstraße;8.642981952;49.30300487;19;14$Bahnhof West;8.663856049;49.29134732;72;69$SAP Campus 2;8.643681407;49.29431306;36;37$S-Bahn-Haltepunkt Nord/West;8.418214917;49.33385159;1;0$Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;3;1$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;1;0$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;30;22"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.643681407, 49.29431306 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Altstadt – Universitätsplatz",
+      "starts" : "0",
+      "ends" : "2",
+      "stations" : "NVZ Bahnhofstraße;8.644394875;49.29953259;0;2"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.706718683, 49.41106046 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Simone Transporter ",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : "WDF10-12;8.643402457;49.2944495;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.527750969, 49.47944587 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Schlosspark",
+      "starts" : "1",
+      "ends" : "0",
+      "stations" : "Moschee / Bergstraße;8.665782809;49.56253629;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.669752479, 49.54528906 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Walldorf-Nordost / St. Ilgener Str.",
+      "starts" : "172",
+      "ends" : "152",
+      "stations" : "Tourist-Information;8.57129395;49.3855297;1;0$Walldorf-Ost / Haus der Kinder;8.651768123;49.3003895;3;4$NVZ Rennbahnstraße;8.635154795;49.30849062;5;8$Rathaus Walldorf;8.646906749;49.30466983;25;14$Bahnhof West;8.663856049;49.29134732;37;29$NVZ Bahnhofstraße;8.644394875;49.29953259;3;7$Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;18;12$Drehscheibe / Hauptstraße;8.642981952;49.30300487;21;23$Jugendzentrum GO IN;8.574662805;49.38023197;3;0$SAP Campus 2;8.643681407;49.29431306;0;1$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;40;41$Studentensiedlung Ludwig Frank;8.492206335;49.50690292;3;0$Dreibrückentor/ Schlossgarten;8.567002416;49.38712206;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.64869531, 49.30898126 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Holbeinring",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : "Drehscheibe / Hauptstraße;8.642981952;49.30300487;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.684925, 49.384066 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Moschee / Bergstraße",
+      "starts" : "1",
+      "ends" : "1",
+      "stations" : "Schlosspark;8.669752479;49.54528906;0;1$Bahnhof / ZOB;8.665471673;49.55267452;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.665782809, 49.56253629 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Altstadt - Plöck",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : ""
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.693736792, 49.40869402 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Promega GmbH",
+      "starts" : "2",
+      "ends" : "1",
+      "stations" : "Bahnhof West;8.663856049;49.29134732;1;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.65748405456, 49.29064995643003 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Theresienkrankenhaus",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : "Haltepunkt Stahlbad;8.649260402;49.54478436;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.480297327, 49.48955938 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Dreibrückentor/ Schlossgarten",
+      "starts" : "0",
+      "ends" : "2",
+      "stations" : "Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.567002416, 49.38712206 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Bahnhof / ZOB",
+      "starts" : "1",
+      "ends" : "1",
+      "stations" : "Moschee / Bergstraße;8.665782809;49.56253629;0;1$Haltepunkt Blumenstraße;8.637780547;49.54467646;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.665471673, 49.55267452 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "INF – Jahnstraße",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : ""
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.676321, 49.412994 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Rathausplatz",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : ""
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.671742678, 49.45081561 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Walldorf-Ost / Haus der Kinder",
+      "starts" : "344",
+      "ends" : "304",
+      "stations" : "Walldorf-Ost / Haus der Kinder;8.651768123;49.3003895;79;80$NVZ Rennbahnstraße;8.635154795;49.30849062;12;6$Rathaus Walldorf;8.646906749;49.30466983;12;7$Bahnhof West;8.663856049;49.29134732;125;125$NVZ Bahnhofstraße;8.644394875;49.29953259;12;7$Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;13;9$Drehscheibe / Hauptstraße;8.642981952;49.30300487;26;20$SAP Campus 2;8.643681407;49.29431306;43;24$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;4;3$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.651768123, 49.3003895 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Hbf - Willy-Brandt-Platz",
+      "starts" : "0",
+      "ends" : "3",
+      "stations" : "Bahnhof West;8.663856049;49.29134732;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.676377535, 49.40428544 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Waidsee",
+      "starts" : "1",
+      "ends" : "1",
+      "stations" : "Haltepunkt Blumenstraße;8.637780547;49.54467646;0;1$Haltepunkt Stahlbad;8.649260402;49.54478436;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.644943, 49.535005 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Kirchheim - S-Bahnhof",
+      "starts" : "0",
+      "ends" : "4",
+      "stations" : "Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;0;2$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;0;1$Bahnhof West;8.663856049;49.29134732;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.676339984, 49.37875116 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Haltepunkt Stahlbad",
+      "starts" : "3",
+      "ends" : "3",
+      "stations" : "Waidsee;8.644943;49.535005;0;1$Krankenhaus / Behördenzentrum;8.646454811;49.54957708;1;2$Theresienkrankenhaus;8.480297327;49.48955938;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.649260402, 49.54478436 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Bahnhof West",
+      "starts" : "798",
+      "ends" : "788",
+      "stations" : "Walldorf-Ost / Haus der Kinder;8.651768123;49.3003895;125;125$NVZ Rennbahnstraße;8.635154795;49.30849062;48;34$Rathaus Walldorf;8.646906749;49.30466983;56;79$Hbf - Willy-Brandt-Platz;8.676377535;49.40428544;1;0$NVZ Bahnhofstraße;8.644394875;49.29953259;97;83$Drehscheibe / Hauptstraße;8.642981952;49.30300487;125;91$Promega GmbH;8.65748405456;49.29064995643003;1;1$WDF18-21, WDF53;8.638078;49.294956;1;0$Kirchheim - S-Bahnhof;8.676339984;49.37875116;1;0$2485;8.6433518;49.3038134;2;0$Bahnhof West;8.663856049;49.29134732;56;57$SAP Campus 2;8.643681407;49.29431306;69;72$Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;18;22$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;29;37$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;15;44"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.663856049, 49.29134732 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Krankenhaus / Behördenzentrum",
+      "starts" : "2",
+      "ends" : "2",
+      "stations" : "Haltepunkt Stahlbad;8.649260402;49.54478436;2;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.646454811, 49.54957708 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Tourist-Information",
+      "starts" : "0",
+      "ends" : "2",
+      "stations" : "Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;0;1$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.57129395, 49.3855297 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Haltepunkt Blumenstraße",
+      "starts" : "1",
+      "ends" : "1",
+      "stations" : "Waidsee;8.644943;49.535005;1;0$Bahnhof / ZOB;8.665471673;49.55267452;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.637780547, 49.54467646 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Jugendzentrum GO IN",
+      "starts" : "0",
+      "ends" : "5",
+      "stations" : "Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;0;1$Drehscheibe / Hauptstraße;8.642981952;49.30300487;0;1$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;0;3"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.574662805, 49.38023197 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Daimlerstraße / Carl-Benz-Straße / SAP Campus 1",
+      "starts" : "168",
+      "ends" : "131",
+      "stations" : "Walldorf-Ost / Haus der Kinder;8.651768123;49.3003895;0;1$NVZ Rennbahnstraße;8.635154795;49.30849062;10;8$Rathaus Walldorf;8.646906749;49.30466983;0;1$NVZ Bahnhofstraße;8.644394875;49.29953259;3;4$WDF15;8.644148111;49.29349089;1;0$Drehscheibe / Hauptstraße;8.642981952;49.30300487;4;4$WDF18-21, WDF53;8.638078;49.294956;1;0$Kirchheim - S-Bahnhof;8.676339984;49.37875116;1;0$2485;8.6433518;49.3038134;1;0$Bahnhof West;8.663856049;49.29134732;44;15$SAP Campus 2;8.643681407;49.29431306;22;30$Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;0;1$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;17;18$WDF10-12;8.643402457;49.2944495;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.64611774, 49.28944044 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Studentensiedlung Ludwig Frank",
+      "starts" : "0",
+      "ends" : "5",
+      "stations" : "Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;0;1$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;0;3"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.492206335, 49.50690292 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Bahnstadt - Grüne Meile / Da-Vinci-Straße",
+      "starts" : "0",
+      "ends" : "4",
+      "stations" : ""
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.6660295, 49.4035698 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "NVZ Rennbahnstraße",
+      "starts" : "299",
+      "ends" : "317",
+      "stations" : "Walldorf-Ost / Haus der Kinder;8.651768123;49.3003895;6;12$NVZ Rennbahnstraße;8.635154795;49.30849062;79;80$Rathaus Walldorf;8.646906749;49.30466983;15;14$NVZ Bahnhofstraße;8.644394875;49.29953259;7;20$Drehscheibe / Hauptstraße;8.642981952;49.30300487;28;40$Kirchheim – Rathaus;8.666115403;49.37752876;1;0$Bahnhof West;8.663856049;49.29134732;34;48$SAP Campus 2;8.643681407;49.29431306;49;23$Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;17;27$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;8;5$Langer Anger;8.668958545;49.40099707;1;0$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;8;10"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.635154795, 49.30849062 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Rathaus Walldorf",
+      "starts" : "189",
+      "ends" : "181",
+      "stations" : "Walldorf-Ost / Haus der Kinder;8.651768123;49.3003895;7;12$Rathaus Walldorf;8.646906749;49.30466983;22;23$NVZ Rennbahnstraße;8.635154795;49.30849062;14;15$Bahnhof West;8.663856049;49.29134732;79;56$NVZ Bahnhofstraße;8.644394875;49.29953259;2;9$Drehscheibe / Hauptstraße;8.642981952;49.30300487;15;7$SAP Campus 2;8.643681407;49.29431306;3;7$Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;4;7$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;14;25$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.646906749, 49.30466983 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "NVZ Bahnhofstraße",
+      "starts" : "252",
+      "ends" : "218",
+      "stations" : "Walldorf-Ost / Haus der Kinder;8.651768123;49.3003895;7;12$NVZ Rennbahnstraße;8.635154795;49.30849062;20;7$Rathaus Walldorf;8.646906749;49.30466983;9;2$Bahnhof West;8.663856049;49.29134732;83;97$NVZ Bahnhofstraße;8.644394875;49.29953259;37;38$Drehscheibe / Hauptstraße;8.642981952;49.30300487;22;9$SAP Campus 2;8.643681407;49.29431306;6;9$Altstadt – Universitätsplatz;8.706718683;49.41106046;2;0$Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;22;18$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;7;3$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;4;3"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.644394875, 49.29953259 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF54",
+      "starts" : "1972",
+      "ends" : "1767",
+      "stations" : "WDF54;8.645575;49.289155;258;259$WDF13;8.648692;49.29265;124;142$WDF15;8.644148111;49.29349089;144;160$WDF16;8.644169569;49.29196548;110;81$WDF18-21, WDF53;8.638078;49.294956;72;64$WDF10-12;8.643402457;49.2944495;182;170"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.645575, 49.289155 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Drehscheibe / Hauptstraße",
+      "starts" : "390",
+      "ends" : "395",
+      "stations" : "Walldorf-Ost / Haus der Kinder;8.651768123;49.3003895;20;26$NVZ Rennbahnstraße;8.635154795;49.30849062;40;28$Rathaus Walldorf;8.646906749;49.30466983;7;15$NVZ Bahnhofstraße;8.644394875;49.29953259;9;22$Drehscheibe / Hauptstraße;8.642981952;49.30300487;70;71$Bahnhof West;8.663856049;49.29134732;91;125$SAP Campus 2;8.643681407;49.29431306;14;19$Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;42;25$Jugendzentrum GO IN;8.574662805;49.38023197;1;0$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;23;21$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;4;4$Holbeinring;8.684925;49.384066;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.642981952, 49.30300487 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Osvaldo Transporter ",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : ""
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.553607464, 49.47863726 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Altstadt – Stadthalle",
+      "starts" : "0",
+      "ends" : "2",
+      "stations" : ""
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.699137, 49.411989 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Postplatz",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : ""
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.431749345, 49.31755532 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Bahnhof Lützelsachsen",
+      "starts" : "1",
+      "ends" : "0",
+      "stations" : "Freibad;8.609622717;49.46422636;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.657237291, 49.52670911 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Kirchheim – Rathaus",
+      "starts" : "0",
+      "ends" : "2",
+      "stations" : "NVZ Rennbahnstraße;8.635154795;49.30849062;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.666115403, 49.37752876 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "INF – Mathematikon",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : ""
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.67488, 49.41979 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "S-Bahn-Haltepunkt Nord/West",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : "SAP Campus 2;8.643681407;49.29431306;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.418214917, 49.33385159 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Astoriahalle/ Schwetzinger Straße",
+      "starts" : "192",
+      "ends" : "190",
+      "stations" : "Schlossplatz Schwetzingen;8.572597504;49.38426207;1;0$Walldorf-Ost / Haus der Kinder;8.651768123;49.3003895;9;13$NVZ Rennbahnstraße;8.635154795;49.30849062;27;17$Rathaus Walldorf;8.646906749;49.30466983;7;4$NVZ Bahnhofstraße;8.644394875;49.29953259;18;22$Bahnhof West;8.663856049;49.29134732;22;18$Drehscheibe / Hauptstraße;8.642981952;49.30300487;25;42$SAP Campus 2;8.643681407;49.29431306;1;3$Kirchheim - S-Bahnhof;8.676339984;49.37875116;2;0$Tourist-Information;8.57129395;49.3855297;1;0$Astoriahalle/ Schwetzinger Straße;8.63908288;49.31346138;31;32$Jugendzentrum GO IN;8.574662805;49.38023197;1;0$Walldorf-Nordost / St. Ilgener Str.;8.64869531;49.30898126;12;18$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;1;0$Studentensiedlung Ludwig Frank;8.492206335;49.50690292;1;0"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.63908288, 49.31346138 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "Langer Anger",
+      "starts" : "0",
+      "ends" : "1",
+      "stations" : "NVZ Rennbahnstraße;8.635154795;49.30849062;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.668958545, 49.40099707 ]
+    }
+  }, {
+    "type" : "Feature",
+    "properties" : {
+      "name" : "WDF10-12",
+      "starts" : "2181",
+      "ends" : "2098",
+      "stations" : "WDF54;8.645575;49.289155;170;182$WDF13;8.648692;49.29265;107;88$WDF15;8.644148111;49.29349089;30;50$WDF16;8.644169569;49.29196548;10;14$WDF18-21, WDF53;8.638078;49.294956;267;228$Simone Transporter ;8.527750969;49.47944587;1;0$WDF10-12;8.643402457;49.2944495;242;243$Daimlerstraße / Carl-Benz-Straße / SAP Campus 1;8.64611774;49.28944044;0;1"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 8.643402457, 49.2944495 ]
+    }
+  } ]
+}

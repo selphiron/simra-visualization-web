@@ -41,6 +41,10 @@ export default {
         bounds: Object,
     },
     data: function () {
+        function getColor(feature) {
+            return feature.properties.mode === "SAP" ? "blue" : "orange-dark"
+        }
+
         return {
             // Markers
             // stations: require("@/assets/SAP Bikesharing.json"),
@@ -49,7 +53,7 @@ export default {
                 pointToLayer: (feature, latlng) => L.marker(latlng, {
                     icon: ExtraMarkers.icon({
                         icon: "fa-bicycle",
-                        markerColor: "blue",
+                        markerColor: getColor(feature),
                         prefix: "fa",
                     }),
                 }),
@@ -75,6 +79,9 @@ export default {
             // Lines
             connections: null,
             connectionsLineStyle: {
+                style: (feature) => {
+                    return { color: getColor(feature) }
+                },
                 onEachFeature: (feature, layer) => {
                     layer.bindPopup(() => {
                         const mapPopup = new (Vue.extend(MapPopupNextBikeLine))({
@@ -117,7 +124,6 @@ export default {
 
                 let stationsArray = event.target.feature.properties.stations.split("$")
 
-
                 if (event.target.feature.properties.stations.length > 0) {
                     stationsArray.forEach((item) => {
                         const itemArray = item.split(";")
@@ -133,6 +139,7 @@ export default {
                                 "name": otherStationName,
                                 "starts": ridesToOtherStation,
                                 "ends": ridesFromOtherStation,
+                                "mode": event.target.feature.properties.mode
                             },
                             "geometry": {
                                 "type": "LineString",
