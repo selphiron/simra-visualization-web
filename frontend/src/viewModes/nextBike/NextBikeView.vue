@@ -42,7 +42,7 @@ export default {
     },
     data: function () {
         function getColor(feature) {
-            return feature.properties.mode === "SAP" ? "blue" : "orange-dark"
+            return feature.properties.mode === "SAP" ? "blue" : "orange"
         }
 
         return {
