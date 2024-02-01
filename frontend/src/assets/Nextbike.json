@@ -224,19 +224,6 @@
   }, {
     "type" : "Feature",
     "properties" : {
-      "name" : "Walldorf Rathaus",
-      "starts" : "0",
-      "ends" : "1",
-      "stations" : "BIKE 30953;8.637194444;49.29283111;0;1",
-      "mode" : "SAP"
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ 8.641316667, 49.30866667 ]
-    }
-  }, {
-    "type" : "Feature",
-    "properties" : {
       "name" : "Theresienkrankenhaus",
       "starts" : "0",
       "ends" : "1",
@@ -532,19 +519,6 @@
     "geometry" : {
       "type" : "Point",
       "coordinates" : [ 8.642981952, 49.30300487 ]
-    }
-  }, {
-    "type" : "Feature",
-    "properties" : {
-      "name" : "Station Bahnhof",
-      "starts" : "0",
-      "ends" : "1",
-      "stations" : "BIKE 30963;8.639996667;49.29184889;0;1",
-      "mode" : "SAP"
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ 8.663958333, 49.291 ]
     }
   }, {
     "type" : "Feature",
